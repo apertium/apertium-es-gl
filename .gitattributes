@@ -1,9 +1,6 @@
 * text=auto !eol
 /AUTHORS -text
 /COPYING -text
-CVS/Entries -text
-CVS/Repository -text
-CVS/Root -text
 /ChangeLog -text
 /Makefile.am -text
 /NEWS -text
