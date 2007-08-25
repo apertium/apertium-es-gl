@@ -15,4 +15,5 @@
 /es-gl-unsupervised.make -text
 /gl-es-supervised.make -text
 /gl-es-unsupervised.make -text
+/gl-es.prob -text svneol=unset#unset
 /modes.xml -text
