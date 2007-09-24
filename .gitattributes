@@ -12,6 +12,7 @@
 /apertium-es-gl.gl.tsx -text
 /apertium-es-gl.post-es.dix -text
 /apertium-es-gl.post-gl.dix -text
+/apertium-es-gl.symbols.xml -text
 /autogen.sh -text
 /configure.ac -text
 /es-gl-supervised.make -text
