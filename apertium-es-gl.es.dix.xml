@@ -66862,6 +66862,20 @@
         </p>
       </e>
     </pardef>
+    <pardef n="sart_én__n">
+    <e>
+        <p>
+	  <l>enes</l>
+	  <r>én<s n="n"/><s n="f"/><s n="pl"/></r>
+	</p>
+      </e>
+      <e>
+        <p>
+	  <l>én</l>
+	  <r>én<s n="n"/><s n="f"/><s n="sg"/></r>
+	</p>
+      </e>
+    </pardef>
     <pardef n="patr_ón__n">
       <e>
         <p>
@@ -79160,7 +79174,9 @@
     <e><i>convocante</i><par n="abundante__adj"/></e>
     <e><i>demencial</i><par n="actual__adj"/></e>
     <e><i>balanceo</i><par n="abandono__n"/></e>
-    <e><i>abastecimiento</i><par n="abandono__n"/></e></section>
+    <e><i>abastecimiento</i><par n="abandono__n"/></e>
+    <e lm="sartén" a="marcosbl"><i>sart</i><par n="sart_én__n"/></e>
+    </section>
   <section id="final" type="inconditional">
     <e>
       <par n="separa"/>
