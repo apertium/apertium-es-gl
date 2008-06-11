@@ -79176,7 +79176,8 @@
     <e><i>balanceo</i><par n="abandono__n"/></e>
     <e><i>abastecimiento</i><par n="abandono__n"/></e>
     <e lm="sartén" a="marcosbl"><i>sart</i><par n="sart_én__n"/></e>
-    </section>
+    <e lm="embudo" a="marcosbl"><i>embudo</i><par n="abandono__n"/></e>
+  </section>
   <section id="final" type="inconditional">
     <e>
       <par n="separa"/>

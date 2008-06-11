@@ -121269,7 +121269,6 @@
     <e><i>vide</i><par n="aba__n"/></e>
     <e><i>vieira</i><par n="aba__n"/></e>
     <e><i>vixilia</i><par n="aba__n"/></e>
-    <e><i>viquing</i><par n="académic/o__n"/></e>
     <e><i>vilalb</i><par n="burgu/és__n"/></e>
     <e><i>vilanov</i><par n="burgu/és__n"/></e>
     <e><i>vinilo</i><par n="Xulio__n"/></e>
@@ -121710,7 +121709,8 @@
     <e lm="aproveitamento"><i>aproveitamento</i><par n="Xulio__n"/></e>
     <e lm="test"><i>test</i><par n="Xulio__n"/></e>
     <e lm="tixola" a="marcosbl"><i>tixola</i><par n="aba__n"/></e>
-    </section>
+    <e lm="funil" a="marcosbl"><i>fun</i><par n="abr/il__n"/></e>
+  </section>
   <section id="final" type="inconditional">
     <e>
       <par n="separa"/>
