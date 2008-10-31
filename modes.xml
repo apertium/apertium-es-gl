@@ -5,7 +5,7 @@
       <program name="lt-proc">
         <file name="gl-es.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g">
+      <program name="apertium-tagger -g $2">
         <file name="gl-es.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -28,7 +28,7 @@
       <program name="lt-proc">
         <file name="es-gl.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g">
+      <program name="apertium-tagger -g $2">
         <file name="es-gl.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
