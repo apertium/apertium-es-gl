@@ -65,12 +65,6 @@
         <i>$</i>
       </e>
       <e>
-        <i>)</i>
-      </e>
-      <e>
-        <i>:</i>
-      </e>
-      <e>
         <i>.</i>
       </e>
     </pardef>
@@ -199,6 +193,18 @@
           <l><a/>y<b/>i</l>
           <r>e<b/>i</r>
         </p>
+      </e>   
+      <e>
+        <p>
+          <l><a/>y<b/>hie</l>
+          <r>y<b/>hie</r>
+        </p>
+      </e>    
+      <e>
+        <p>
+          <l><a/>y<b/>hi</l>
+          <r>e<b/>hi</r>
+        </p>
       </e>
       <e>
         <p>
@@ -207,8 +213,24 @@
         </p>
       </e>
       <e>
+        <p>
+          <l><a/>o<b/>ho</l>
+          <r>u<b/>ho</r>
+        </p>
+      </e>
+      <e>
         <par n="pr"/>
         <i>agua</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>hada</i>
+        <par n="la"/>
+      </e>
+       <e>
+        <par n="pr"/>
+        <i>habla</i>
         <par n="la"/>
       </e>
       <e>
@@ -282,16 +304,6 @@
       <e>
         <par n="pr"/>
         <i>aspa</i>
-        <par n="la"/>
-      </e>
-      <e>
-        <par n="pr"/>
-        <i>hada</i>
-        <par n="la"/>
-      </e>
-      <e>
-        <par n="pr"/>
-        <i>habla</i>
         <par n="la"/>
       </e>
       <e>
