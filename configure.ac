@@ -4,15 +4,15 @@
 
 AC_PREREQ(2.52)
 
-m4_define([required_apertium_version], [3.0.0])
+m4_define([required_apertium_version], [3.1.0])
 
-AC_INIT([apertium-es-gl], [1.0.6], [xgg@uvigo.es])
-AM_INIT_AUTOMAKE([apertium-es-gl], [1.0.6], no-define)
+AC_INIT([apertium-es-gl], [1.0.7], [xgg@uvigo.es])
+AM_INIT_AUTOMAKE([apertium-es-gl], [1.0.7], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 AC_CONFIG_HEADER([config])
 
-AC_DEFUN(PKG_CHECK_APERTIUM, [
+AC_DEFUN([PKG_CHECK_APERTIUM], [
   APERTIUM_VER=0
   PKG_CHECK_MODULES(APERTIUM, apertium-1.0 >= 1.0.0,
   [
@@ -38,7 +38,6 @@ AC_DEFUN(PKG_CHECK_APERTIUM, [
 ])
                           
 PKG_CHECK_APERTIUM
-
 
 AC_SUBST(APERTIUM_VER)
 

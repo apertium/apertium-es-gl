@@ -6,14 +6,11 @@
 /NEWS -text
 /README -text
 /apertium-es-gl.es-gl.dix -text
-/apertium-es-gl.es-gl.dix.xml -text
 /apertium-es-gl.es-gl.t1x -text
 /apertium-es-gl.es.dix -text
-/apertium-es-gl.es.dix.xml -text
 /apertium-es-gl.es.tsx -text
 /apertium-es-gl.gl-es.t1x -text
 /apertium-es-gl.gl.dix -text
-/apertium-es-gl.gl.dix.xml -text
 /apertium-es-gl.gl.tsx -text
 /apertium-es-gl.post-es.dix -text
 /apertium-es-gl.post-gl.dix -text

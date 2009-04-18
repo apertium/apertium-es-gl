@@ -1,6 +1,6 @@
 Spanish and Galician
 
-You need apertium-3.0.1 and lttoolbox-3.0.0 to use this translator. To compile
+You need apertium-3.1.0 and lttoolbox-3.1.0 to use this translator. To compile
 the linguistic data simply do:
 
 ./configure [ --prefix=/path/to/your/dir ]
