@@ -45,4 +45,147 @@
       </program>
     </pipeline>
   </mode>
+
+
+  <mode name="gl-es-anmor">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="gl-es.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+<mode name="gl-es-tagger">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="gl-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="gl-es.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="gl-es-pretransfer">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="gl-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="gl-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
+  <mode name="gl-es-transfer">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="gl-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="gl-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-es-gl.gl-es.t1x"/>
+        <file name="gl-es.t1x.bin"/>
+        <file name="gl-es.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+<mode name="gl-es-gen">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="gl-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="gl-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-es-gl.gl-es.t1x"/>
+        <file name="gl-es.t1x.bin"/>
+        <file name="gl-es.autobil.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="gl-es.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  
+  <mode name="es-gl-anmor">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-gl.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="es-gl-tagger">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-gl.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-gl.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="es-gl-pretransfer">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-gl.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-gl.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+  <mode name="es-gl-transfer">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-gl.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-gl.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-es-gl.es-gl.t1x"/>
+        <file name="es-gl.t1x.bin"/>
+        <file name="es-gl.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="es-gl-generador">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-gl.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-gl.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-es-gl.es-gl.t1x"/>
+        <file name="es-gl.t1x.bin"/>
+        <file name="es-gl.autobil.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="es-gl.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
 </modes>
