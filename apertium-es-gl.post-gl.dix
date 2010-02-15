@@ -1043,6 +1043,19 @@
     <e>
       <p>
         <l><a/>de<b/></l>
+        <r>de<b/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l><a/>de<b/></l>
+        <r>de<b/></r>
+      </p>
+      <par n="caracter_general"/>
+    </e>
+    <e>
+      <p>
+        <l><a/>de<b/></l>
         <r>d</r>
       </p>
       <par n="artigo_m"/>
