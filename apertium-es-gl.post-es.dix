@@ -344,61 +344,33 @@
         <par n="la"/>
   </e>
 
-        <e>
-        <p>
-         <l><a/>ambos<b/>los<b/>dos</l>
-          <r>ambos</r>
-        </p>
-      </e>
+  <e>
+     <p>
+        <l><a/>ambos<b/>dos</l>
+        <r>ambos</r>
+      </p>
+ </e>
 
-      <e>
-        <p>
-         <l><a/>ambas<b/>las<b/>dos</l>
-          <r>ambas</r>
-        </p>
-      </e>
+ <e>
+     <p>
+       <l><a/>ambas<b/>dos</l>
+       <r>ambas</r>
+     </p>
+  </e>
 
-        <e>
-        <p>
-         <l><a/>dónde<b/>está<b/>los</l>
-          <r>dónde<b/>están<b/>los</r>
-        </p>
-      </e>
+  <e>
+     <p>
+        <l><a/>dónde<b/>está<b/>los</l>
+        <r>dónde<b/>están<b/>los</r>
+      </p>
+ </e>
 
-        <e>
-        <p>
-         <l><a/>dónde<b/>está<b/>las</l>
-          <r>dónde<b/>están<b/>las</r>
-        </p>
-      </e>
-
-        <e>
-        <p>
-         <l><a/>que<b/>ti</l>
-          <r>que<b/>tú</r>
-        </p>
-      </e>
-
-      <e>
-        <p>
-         <l><a/>que<b/>mí</l>
-          <r>que<b/>yo</r>
-        </p>
-      </e>
-
-        <e>
-        <p>
-         <l><a/>como<b/>ti</l>
-          <r>como<b/>tú</r>
-        </p>
-      </e>
-
-      <e>
-        <p>
-         <l><a/>como<b/>mí</l>
-          <r>como<b/>yo</r>
-        </p>
-      </e>
+ <e>
+     <p>
+        <l><a/>dónde<b/>está<b/>las</l>
+        <r>dónde<b/>están<b/>las</r>
+     </p>
+ </e>
 
   </section>
 
