@@ -83887,6 +83887,12 @@ Data: 20/10/2011 -->
 <e>
 <p>
 <l>predí</l>
+<r>predicir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+</p>
+</e>
+<e>
+<p>
+<l>predí</l>
 <r>predicir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r>
 </p>
 <par n="S__habería"/>
@@ -84500,6 +84506,12 @@ Data: 20/10/2011 -->
 <r>predicir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/><j/></r>
 </p>
 <par n="S__haberían_b"/>
+</e>
+<e>
+<p>
+<l>predí</l>
+<r>predicir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+</p>
 </e>
 <e>
 <p>
@@ -235312,7 +235324,7 @@ Data: 20/10/2011 -->
 <e lm="asubíar">
 <p>
 <l>asubí</l>
-<r>asubí</r>
+<r>asubi</r>
 </p>
 <par n="acentú/ar__vblex"/>
 </e>
@@ -238870,13 +238882,13 @@ Data: 20/10/2011 -->
 <i>requisad</i>
 <par n="abarrotad/o__adj"/>
 </e>
-<e lm="requísar">
-<i>requís</i>
+<e lm="requisar">
+<i>requis</i>
 <par n="abaf/ar__vblex"/>
 </e>
 <e lm="requisar">
 <p>
-<l>requis</l>
+<l>requís</l>
 <r>requis</r>
 </p>
 <par n="abáf/ar__vblex"/>
