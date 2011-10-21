@@ -115372,6 +115372,20 @@ Data: 20/10/2011 -->
 </p>
 </e>
 </pardef>
+<pardef n="ning/ún__det">
+<e>
+<p>
+<l>unha</l>
+<r>ún<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+</p>
+</e>
+<e>
+<p>
+<l>ún</l>
+<r>ún<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+</p>
+</e>
+</pardef>
 <pardef n="tal__det">
 <e>
 <p>
@@ -124044,7 +124058,7 @@ Data: 20/10/2011 -->
 <i>a<b/>valmontes</i>
 <par n="Deo_gratias__adv"/>
 </e>
-<e lm="a varrer">
+<e r="RL" lm="a varrer">
 <i>a<b/>varrer</i>
 <par n="Deo_gratias__adv"/>
 </e>
@@ -125674,7 +125688,7 @@ Data: 20/10/2011 -->
 </p>
 <par n="Deo_gratias__adv"/>
 </e>
-<e lm="na estrada">
+<e r="RL" lm="na estrada">
 <i>na<b/>estrada</i>
 <par n="Deo_gratias__adv"/>
 </e>
@@ -128707,22 +128721,22 @@ Data: 20/10/2011 -->
 <r>ambos<b/>os<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
 </p>
 </e>
-<e lm="ambas as">
+<e lm="ambos os">
 <p>
 <l>ambas<b/>as</l>
 <r>ambos<b/>os<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
 </p>
 </e>
-<e r="LR" lm="ámbalas">
-<p>
-<l>ámbalas</l>
-<r>ambos<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/><j/>o<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r>
-</p>
-</e>
-<e r="LR" lm="ámbolos">
+<e lm="ámbolos">
 <p>
 <l>ámbolos</l>
-<r>ambos<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/><j/>o<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r>
+<r>ámbolos<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+</p>
+</e>
+<e lm="ámbolos">
+<p>
+<l>ámbolas</l>
+<r>ámbolos<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
 </p>
 </e>
 <e r="LR" lm="aquel">
@@ -128766,22 +128780,22 @@ Data: 20/10/2011 -->
 <r>entrambos<b/>os<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
 </p>
 </e>
-<e lm="entrambas as">
+<e lm="entrambos os">
 <p>
 <l>entrambas<b/>as</l>
 <r>entrambos<b/>os<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
 </p>
 </e>
-<e r="LR" lm="entrámbolas">
-<p>
-<l>entrámbolas</l>
-<r>entrambos<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/><j/>o<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r>
-</p>
-</e>
-<e r="LR" lm="entrámbolos">
+<e lm="entrámbolos">
 <p>
 <l>entrámbolos</l>
-<r>entrambos<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/><j/>o<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r>
+<r>entrámbolos<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+</p>
+</e>
+<e lm="entrámbolos">
+<p>
+<l>entrámbolas</l>
+<r>entrámbolos<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
 </p>
 </e>
 <e r="LR" lm="ese">
@@ -128824,7 +128838,7 @@ Data: 20/10/2011 -->
 </e>
 <e lm="ningún">
 <i>ning</i>
-<par n="alg/ún__det"/>
+<par n="ning/ún__det"/>
 </e>
 <e lm="noso">
 <i>nos</i>
@@ -136463,6 +136477,10 @@ Data: 20/10/2011 -->
 <i>hostaleir</i>
 <par n="académic/o__n"/>
 </e>
+<e lm="hoteleiro">
+<i>hoteleir</i>
+<par n="académic/o__n"/>
+</e>
 <e lm="hotel">
 <i>hote</i>
 <par n="Nada/l__n"/>
@@ -137770,10 +137788,6 @@ Data: 20/10/2011 -->
 <e lm="maio">
 <i>maio</i>
 <par n="Xulio__n"/>
-</e>
-<e lm="maior">
-<i>maior</i>
-<par n="actor__n"/>
 </e>
 <e lm="maioridade">
 <i>maioridade</i>
@@ -144114,9 +144128,6 @@ Data: 20/10/2011 -->
 <e lm="vivenda">
 <i>vivenda</i>
 <par n="aba__n"/>
-</e>
-<e lm="vivente">
-<i>vivente<s n="n"/></i>
 </e>
 <e lm="vivo">
 <i>viv</i>
@@ -163277,7 +163288,7 @@ Data: 20/10/2011 -->
 <i>á</i>
 <par n="aba__n"/>
 </e>
-<e r="LR" lm="cadanseu">
+<e lm="cadanseu">
 <i>cadans</i>
 <par n="s/eu__adj"/>
 </e>
@@ -165171,7 +165182,7 @@ Data: 20/10/2011 -->
 <i>Fernandinho</i>
 <par n="Artai__np"/>
 </e>
-<e lm="ferroviario">
+<e r="RL" lm="ferroviario">
 <i>ferroviari</i>
 <par n="académic/o__n"/>
 </e>
@@ -167333,10 +167344,6 @@ Data: 20/10/2011 -->
 <i>desaxuste</i>
 <par n="Xulio__n"/>
 </e>
-<e lm="desalojo">
-<i>desalojo</i>
-<par n="Xulio__n"/>
-</e>
 <e lm="desamparo">
 <i>desamparo</i>
 <par n="Xulio__n"/>
@@ -168942,10 +168949,6 @@ Data: 20/10/2011 -->
 </e>
 <e lm="esparexemento">
 <i>esparexemento</i>
-<par n="Xulio__n"/>
-</e>
-<e lm="espionaje">
-<i>espionaje</i>
 <par n="Xulio__n"/>
 </e>
 <e lm="eucalipto">
@@ -172499,10 +172502,6 @@ Data: 20/10/2011 -->
 <i>hidroeléctric</i>
 <par n="abarrotad/o__adj"/>
 </e>
-<e lm="hipotecaro">
-<i>hipotecar</i>
-<par n="abarrotad/o__adj"/>
-</e>
 <e lm="honesto">
 <i>honest</i>
 <par n="abarrotad/o__adj"/>
@@ -172589,10 +172588,6 @@ Data: 20/10/2011 -->
 </e>
 <e lm="xenérico">
 <i>xenéric</i>
-<par n="abarrotad/o__adj"/>
-</e>
-<e lm="xeológico">
-<i>xeológic</i>
 <par n="abarrotad/o__adj"/>
 </e>
 <e lm="hixiénico">
@@ -173171,10 +173166,6 @@ Data: 20/10/2011 -->
 <i>encadernación</i>
 <par n="aba__n"/>
 </e>
-<e lm="allemento">
-<i>allemento</i>
-<par n="Xulio__n"/>
-</e>
 <e lm="estimulante">
 <i>estimulante</i>
 <par n="Xulio__n"/>
@@ -173253,10 +173244,6 @@ Data: 20/10/2011 -->
 </e>
 <e lm="galope">
 <i>galope</i>
-<par n="Xulio__n"/>
-</e>
-<e lm="gasoducto">
-<i>gasoducto</i>
 <par n="Xulio__n"/>
 </e>
 <e lm="gorro">
@@ -174371,8 +174358,8 @@ Data: 20/10/2011 -->
 <i>ilexítim</i>
 <par n="abarrotad/o__adj"/>
 </e>
-<e lm="espinosoo">
-<i>espinoso</i>
+<e lm="espinoso">
+<i>espinos</i>
 <par n="abarrotad/o__adj"/>
 </e>
 <e lm="estoniano">
@@ -174441,10 +174428,6 @@ Data: 20/10/2011 -->
 </e>
 <e lm="esponxiforme">
 <i>esponxiforme</i>
-<par n="abraiante__adj"/>
-</e>
-<e lm="aglaiante">
-<i>aglaiante</i>
 <par n="abraiante__adj"/>
 </e>
 <e lm="excluínte">
@@ -180551,7 +180534,7 @@ Data: 20/10/2011 -->
 </e>
 <e lm="abatemento">
 <i>abatemento</i>
-<par n="aba__n"/>
+<par n="Xulio__n"/>
 </e>
 <e lm="abdominoplastia">
 <i>abdominoplastia</i>
@@ -184552,7 +184535,11 @@ Data: 20/10/2011 -->
 </e>
 <e lm="Amena">
 <i>Amena</i>
-<par n="Artai__np"/>
+<par n="Imaxin__np"/>
+</e>
+<e lm="Orange">
+<i>Orange</i>
+<par n="Imaxin__np"/>
 </e>
 <e lm="Anagrama">
 <i>Anagrama</i>
@@ -185694,10 +185681,6 @@ Data: 20/10/2011 -->
 <i>Borobó</i>
 <par n="Artai__np"/>
 </e>
-<e lm="Carmargo">
-<i>Carmargo</i>
-<par n="Artai__np"/>
-</e>
 <e lm="Campa">
 <i>Campa</i>
 <par n="Artai__np"/>
@@ -186068,10 +186051,6 @@ Data: 20/10/2011 -->
 </e>
 <e lm="autodidacta">
 <i>autodidacta</i>
-<par n="abraiante__adj"/>
-</e>
-<e lm="bajista">
-<i>bajista</i>
 <par n="abraiante__adj"/>
 </e>
 <e lm="bolxevique">
@@ -187399,10 +187378,6 @@ Data: 20/10/2011 -->
 </e>
 <e lm="comporta">
 <i>comporta</i>
-<par n="aba__n"/>
-</e>
-<e lm="cosistencia">
-<i>cosistencia</i>
 <par n="aba__n"/>
 </e>
 <e lm="contrapartida">
@@ -188756,10 +188731,6 @@ Data: 20/10/2011 -->
 <e lm="bacharel">
 <i>bachare</i>
 <par n="Nada/l__n"/>
-</e>
-<e lm="baranco">
-<i>baranco</i>
-<par n="Xulio__n"/>
 </e>
 <e lm="barrote">
 <i>barrote</i>
@@ -191366,10 +191337,6 @@ Data: 20/10/2011 -->
 <e lm="quirófano">
 <i>quirófano</i>
 <par n="Xulio__n"/>
-</e>
-<e lm="rafa">
-<i>rafa</i>
-<par n="aba__n"/>
 </e>
 <e lm="Racing">
 <i>Racing</i>
@@ -195012,10 +194979,6 @@ Data: 20/10/2011 -->
 <e lm="piña">
 <i>piña</i>
 <par n="aba__n"/>
-</e>
-<e lm="afundimiento">
-<i>afundimiento</i>
-<par n="Xulio__n"/>
 </e>
 <e lm="xeroglífico">
 <i>xeroglífico</i>
@@ -199392,10 +199355,6 @@ Data: 20/10/2011 -->
 <i>mili</i>
 <par n="Xulio__n"/>
 </e>
-<e lm="míster">
-<i>míster</i>
-<par n="Xulio__n"/>
-</e>
 <e lm="montañismo">
 <i>montañismo</i>
 <par n="Xulio__n"/>
@@ -200711,10 +200670,6 @@ Data: 20/10/2011 -->
 <i>morbo</i>
 <par n="Xulio__n"/>
 </e>
-<e lm="mortero">
-<i>mortero</i>
-<par n="Xulio__n"/>
-</e>
 <e lm="mioma">
 <i>mioma</i>
 <par n="Xulio__n"/>
@@ -201417,10 +201372,6 @@ Data: 20/10/2011 -->
 </e>
 <e lm="interinidade">
 <i>interinidade</i>
-<par n="aba__n"/>
-</e>
-<e lm="marginalidade">
-<i>marginalidade</i>
 <par n="aba__n"/>
 </e>
 <e lm="nocturnidade">
@@ -202432,7 +202383,7 @@ Data: 20/10/2011 -->
 </e>
 <e lm="incorrixíbel">
 <i>incorrixíbe</i>
-<par n="abraiante__adj"/>
+<par n="accidenta/l__adj"/>
 </e>
 <e lm="incrédulo">
 <i>incrédul</i>
@@ -202734,10 +202685,6 @@ Data: 20/10/2011 -->
 </e>
 <e lm="informatizado">
 <i>informatizad</i>
-<par n="abarrotad/o__adj"/>
-</e>
-<e lm="informatizo">
-<i>informatiz</i>
 <par n="abarrotad/o__adj"/>
 </e>
 <e lm="infrahumano">
@@ -206077,10 +206024,6 @@ Data: 20/10/2011 -->
 <e lm="puxilato">
 <i>puxilato</i>
 <par n="Xulio__n"/>
-</e>
-<e lm="puxa">
-<i>puxa</i>
-<par n="aba__n"/>
 </e>
 <e lm="puxanza">
 <i>puxanza</i>
@@ -209759,7 +209702,7 @@ Data: 20/10/2011 -->
 <i>tudense</i>
 <par n="acompañante__n"/>
 </e>
-<e lm="porca">
+<e r="RL" lm="porca">
 <i>porca</i>
 <par n="aba__n"/>
 </e>
@@ -225811,10 +225754,6 @@ Data: 20/10/2011 -->
 <i>Caselas</i>
 <par n="Artai__np"/>
 </e>
-<e lm="cuadrícula">
-<i>cuadrícula</i>
-<par n="aba__n"/>
-</e>
 <e lm="Cassini">
 <i>Cassini</i>
 <par n="Artai__np"/>
@@ -229865,10 +229804,6 @@ Data: 20/10/2011 -->
 <i>Gramanet</i>
 <par n="Muxia__np"/>
 </e>
-<e lm="graúdo">
-<i>graúd</i>
-<par n="abarrotad/o__adj"/>
-</e>
 <e lm="grancanario">
 <i>grancanari</i>
 <par n="abarrotad/o__adj"/>
@@ -230722,10 +230657,6 @@ Data: 20/10/2011 -->
 <i>paxarela</i>
 <par n="aba__n"/>
 </e>
-<e lm="cotada">
-<i>cotada</i>
-<par n="aba__n"/>
-</e>
 <e lm="cerdedense">
 <i>cerdedense</i>
 <par n="abraiante__adj"/>
@@ -231282,10 +231213,6 @@ Data: 20/10/2011 -->
 <e lm="Recoletos">
 <i>Recoletos</i>
 <par n="Imaxin__np"/>
-</e>
-<e lm="trasluz">
-<i>traslu</i>
-<par n="andalu/z__n"/>
 </e>
 <e lm="testo">
 <i>testo</i>
@@ -232493,7 +232420,7 @@ Data: 20/10/2011 -->
 <par n="aba__n"/>
 </e>
 <e lm="areal">
-<i>areal<s n="n"/></i>
+<i>area</i>
 <par n="capita/l__n"/>
 </e>
 <e lm="insignia">
@@ -232660,10 +232587,6 @@ Data: 20/10/2011 -->
 <i>como<b/>un<b/>templo</i>
 <par n="Deo_gratias__adv"/>
 </e>
-<e lm="por todo o alto">
-<i>por<b/>todo<b/>o<b/>alto</i>
-<par n="Deo_gratias__adv"/>
-</e>
 <e lm="á prancha">
 <i>á<b/>prancha</i>
 <par n="Deo_gratias__adv"/>
@@ -232722,10 +232645,6 @@ Data: 20/10/2011 -->
 <l><b/>fogo</l>
 <r><g><b/>fogo</g></r>
 </p>
-</e>
-<e lm="atragoado">
-<i>atragoad</i>
-<par n="abarrotad/o__adj"/>
 </e>
 <e lm="absolto">
 <i>absolt</i>
@@ -233504,10 +233423,6 @@ Data: 20/10/2011 -->
 <r>calde</r>
 </p>
 <par n="abáf/ar__vblex"/>
-</e>
-<e lm="calello">
-<i>calello</i>
-<par n="Xulio__n"/>
 </e>
 <e lm="cantábrico">
 <i>cantábric</i>
@@ -235430,14 +235345,6 @@ Data: 20/10/2011 -->
 <i>sureñ</i>
 <par n="académic/o__n"/>
 </e>
-<e lm="rañas">
-<i>rañas</i>
-<par n="diesel__adj"/>
-</e>
-<e lm="rañas">
-<i>rañas</i>
-<par n="catrocentos__n"/>
-</e>
 <e lm="tailandés">
 <i>tailand</i>
 <par n="burgu/és__adj"/>
@@ -236052,8 +235959,8 @@ Data: 20/10/2011 -->
 <par n="aba__n"/>
 </e>
 <e lm="criadeiro">
-<i>criadeir</i>
-<par n="académic/o__n"/>
+<i>criadeiro</i>
+<par n="Xulio__n"/>
 </e>
 <e lm="audición">
 <i>audición</i>
@@ -238211,8 +238118,8 @@ Data: 20/10/2011 -->
 </e>
 <e lm="neno rico">
 <p>
-<l>neno<b/>rico</l>
-<r>nenos<b/>ricos<s n="n"/><s n="m"/><s n="pl"/></r>
+<l>nenos<b/>ricos</l>
+<r>neno<b/>rico<s n="n"/><s n="m"/><s n="pl"/></r>
 </p>
 </e>
 <e lm="pixama">
@@ -240493,10 +240400,6 @@ Data: 20/10/2011 -->
 <i>terapeuta</i>
 <par n="acompañante__n"/>
 </e>
-<e lm="tercermundista">
-<i>tercermundista</i>
-<par n="abraiante__adj"/>
-</e>
 <e lm="Terenci">
 <i>Terenci</i>
 <par n="Artai__np"/>
@@ -241321,13 +241224,13 @@ Data: 20/10/2011 -->
 <i>liguiña</i>
 <par n="aba__n"/>
 </e>
-<e lm="o xeneral">
+<e r="RL" lm="o xeneral">
 <p>
 <l>o<b/>xeneral</l>
 <r>o<b/>xeneral<s n="n"/><s n="m"/><s n="sg"/></r>
 </p>
 </e>
-<e lm="o xeneral">
+<e r="RL" lm="o xeneral">
 <p>
 <l>os<b/>xenerais</l>
 <r>o<b/>xeneral<s n="n"/><s n="m"/><s n="pl"/></r>
@@ -241875,11 +241778,11 @@ Data: 20/10/2011 -->
 <i>U.</i>
 <par n="UNESCO__n"/>
 </e>
-<e lm="repasado">
+<e r="RL" lm="repasado">
 <i>repasad</i>
 <par n="abarrotad/o__adj"/>
 </e>
-<e lm="repasado">
+<e r="RL" lm="repasado">
 <i>repasado</i>
 <par n="Xulio__n"/>
 </e>
@@ -242045,7 +241948,7 @@ Data: 20/10/2011 -->
 <i>pasteir</i>
 <par n="abarrotad/o__adj"/>
 </e>
-<e lm="un chisco">
+<e r="RL" lm="un chisco">
 <i>un<b/>chisco</i>
 <par n="Deo_gratias__adv"/>
 </e>
@@ -242171,10 +242074,6 @@ Data: 20/10/2011 -->
 </e>
 <e lm="desaforamento">
 <i>desaforamento</i>
-<par n="Xulio__n"/>
-</e>
-<e lm="confrontamento">
-<i>confrontamento</i>
 <par n="Xulio__n"/>
 </e>
 <e lm="talo">
@@ -246269,6 +246168,10 @@ Data: 20/10/2011 -->
 <l>San<b/>Patricio</l>
 <r>San<b/>Patricio<s n="n"/><s n="m"/><s n="sg"/></r>
 </p>
+</e>
+<e lm="arrebatador">
+<i>arrebatador</i>
+<par n="abafador__adj"/>
 </e>
 
 

@@ -71204,6 +71204,10 @@
 <i>niñ</i>
 <par n="absolut_o__adj"/>
 </e>
+<e lm="pícaro">
+<i>pícar</i>
+<par n="absolut_o__adj"/>
+</e>
 <e lm="observador">
 <i>observador</i>
 <par n="abrumador__adj"/>
@@ -71618,7 +71622,7 @@
 </e>
 <e lm="notable">
 <i>notable</i>
-<par n="abandono__n"/>
+<par n="capital__n"/>
 </e>
 <e lm="novecientos">
 <i>novecientos</i>
@@ -71929,8 +71933,8 @@
 <par n="capital__n"/>
 </e>
 <e lm="rancio">
-<i>rancio</i>
-<par n="abandono__n"/>
+<i>ranci</i>
+<par n="abogad_o__n"/>
 </e>
 <e lm="rápido">
 <i>rápido</i>
@@ -73263,6 +73267,10 @@
 <e lm="delincuente">
 <i>delincuente</i>
 <par n="abundante__adj"/>
+</e>
+<e lm="delincuente">
+<i>delincuente</i>
+<par n="agente__n"/>
 </e>
 <e lm="demente">
 <i>demente</i>
@@ -77044,6 +77052,13 @@
 <p>
 <l><a/>dónde<b/>está</l>
 <r>dónde<b/>está</r>
+</p>
+<par n="adónde__adv"/>
+</e>
+<e r="RL" lm="dónde están">
+<p>
+<l><a/>dónde<b/>están</l>
+<r>dónde<b/>están</r>
 </p>
 <par n="adónde__adv"/>
 </e>
@@ -108247,12 +108262,28 @@
 <par n="abandono__n"/>
 </e>
 <e r="RL" lm="su respectivo">
-<i>su<b/>respectiv</i>
-<par n="mí_o__adj"/>
+<p>
+<l>su<b/>respectivo</l>
+<r>su<b/>respectivo<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r>
+</p>
 </e>
-<e r="RL" lm="sus respectivos">
-<i>sus<b/>respectiv</i>
-<par n="mí_o__adj"/>
+<e r="RL" lm="su respectivo">
+<p>
+<l>sus<b/>respectivos</l>
+<r>su<b/>respectivo<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r>
+</p>
+</e>
+<e r="RL" lm="su respectivo">
+<p>
+<l>su<b/>respectiva</l>
+<r>su<b/>respectivo<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r>
+</p>
+</e>
+<e r="RL" lm="su respectivo">
+<p>
+<l>sus<b/>respectivas</l>
+<r>su<b/>respectivo<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r>
+</p>
 </e>
 <e lm="con nosotros">
 <i>con<b/>nosotr</i>
@@ -108630,10 +108661,6 @@
 <i>Echegaray</i>
 <par n="Artai__np"/>
 </e>
-<e lm="Gallego">
-<i>Gallego</i>
-<par n="Artai__np"/>
-</e>
 <e lm="Caballero">
 <i>Caballero</i>
 <par n="Artai__np"/>
@@ -108977,8 +109004,8 @@
 <i>extremeñ</i>
 <par n="absolut_o__adj"/>
 </e>
-<e lm="FADEMUR">
-<i>FADEMUR</i>
+<e lm="Fademur">
+<i>Fademur</i>
 <par n="UNESCO__n"/>
 </e>
 <e lm="Fadesa">
@@ -110709,10 +110736,6 @@
 <e lm="Ibiza">
 <i>Ibiza</i>
 <par n="Muxia__np"/>
-</e>
-<e lm="Ibérica">
-<i>Ibérica</i>
-<par n="Imaxin__np"/>
 </e>
 <e lm="Ericsson">
 <i>Ericsson</i>
@@ -127179,6 +127202,10 @@
 <i>Amena</i>
 <par n="Imaxin__np"/>
 </e>
+<e lm="Orange">
+<i>Orange</i>
+<par n="Imaxin__np"/>
+</e>
 <e lm="Anagrama">
 <i>Anagrama</i>
 <par n="Imaxin__np"/>
@@ -130638,10 +130665,6 @@
 </e>
 <e lm="Borobó">
 <i>Borobó</i>
-<par n="Artai__np"/>
-</e>
-<e lm="Carmargo">
-<i>Carmargo</i>
 <par n="Artai__np"/>
 </e>
 <e lm="Campa">
@@ -141084,7 +141107,7 @@
 </e>
 <e lm="parálisis">
 <i>parálisis</i>
-<par n="análisis__n"/>
+<par n="crisis__n"/>
 </e>
 <e lm="paréntesis">
 <i>paréntesis</i>
@@ -154295,8 +154318,8 @@
 <par n="abajo__adv"/>
 </e>
 <e lm="pupilo">
-<i>pupilo</i>
-<par n="abandono__n"/>
+<i>pupil</i>
+<par n="abogad_o__n"/>
 </e>
 <e lm="rancho">
 <i>rancho</i>
@@ -157962,7 +157985,7 @@
 <i>telefónicamente</i>
 <par n="abajo__adv"/>
 </e>
-<e lm="tocante a">
+<e r="LR" lm="tocante a">
 <i>tocante<b/>a</i>
 <par n="aun__cnjadv"/>
 </e>
@@ -170898,8 +170921,8 @@
 <i>astad</i>
 <par n="absolut_o__adj"/>
 </e>
-<e lm="atrasado">
-<i>atrasad</i>
+<e lm="retrasado">
+<i>retrasad</i>
 <par n="absolut_o__adj"/>
 </e>
 <e lm="aupado">
@@ -177040,10 +177063,6 @@
 <i>Recoletos</i>
 <par n="Imaxin__np"/>
 </e>
-<e lm="trasluz">
-<i>traslu</i>
-<par n="altavo_z__n"/>
-</e>
 <e lm="tiesto">
 <i>tiesto</i>
 <par n="abandono__n"/>
@@ -178023,7 +178042,7 @@
 </e>
 <e lm="lid">
 <i>lid</i>
-<par n="abril__n"/>
+<par n="a__n"/>
 </e>
 <e lm="Lieiro">
 <i>Lieiro</i>
@@ -186380,10 +186399,6 @@
 <i>Telemark</i>
 <par n="Imaxin__np"/>
 </e>
-<e lm="telerrealidad">
-<i>telerrealidad</i>
-<par n="abundancia__n"/>
-</e>
 <e lm="telescopio">
 <i>telescopio</i>
 <par n="abandono__n"/>
@@ -186572,6 +186587,10 @@
 </e>
 <e lm="timonel">
 <i>timonel</i>
+<par n="abril__n"/>
+</e>
+<e lm="telar">
+<i>telar</i>
 <par n="abril__n"/>
 </e>
 <e lm="Timothy">
@@ -193133,6 +193152,14 @@
 <l>San<b/>Patricio</l>
 <r>San<b/>Patricio<s n="n"/><s n="m"/><s n="sg"/></r>
 </p>
+</e>
+<e lm="arrebatador">
+<i>arrebatador</i>
+<par n="abrumador__adj"/>
+</e>
+<e lm="gandul">
+<i>gandul</i>
+<par n="abrumador__adj"/>
 </e>
 
 

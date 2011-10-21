@@ -1200,6 +1200,12 @@
 <r>amizade<s n="n"/></r>
 </p>
 </e>
+<e r="RL">
+<p>
+<l>amistad<s n="n"/></l>
+<r>amistade<s n="n"/></r>
+</p>
+</e>
 <e>
 <i>amnistía<s n="n"/></i>
 </e>
@@ -3153,12 +3159,6 @@
 <r>bordel<s n="n"/></r>
 </p>
 </e>
-<e r="RL">
-<p>
-<l>límite<s n="n"/></l>
-<r>bordo<s n="n"/></r>
-</p>
-</e>
 <e>
 <i>borra<s n="n"/></i>
 </e>
@@ -4868,8 +4868,8 @@
 </e>
 <e r="RL">
 <p>
-<l>manía<s n="n"/></l>
-<r>cisma<s n="n"/></r>
+<l>manía<s n="n"/><s n="f"/></l>
+<r>cisma<s n="n"/><s n="m"/></r>
 </p>
 </e>
 <e>
@@ -6776,6 +6776,9 @@
 </e>
 <e>
 <i>delincuente<s n="adj"/></i>
+</e>
+<e>
+<i>delincuente<s n="n"/></i>
 </e>
 <e>
 <i>delirio<s n="n"/></i>
@@ -10089,7 +10092,7 @@
 <r>forte<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <i>fortuíto<s n="adj"/></i>
 </e>
 <e>
@@ -10495,6 +10498,12 @@
 <p>
 <l>gandul<s n="n"/></l>
 <r>gandulo<s n="n"/></r>
+</p>
+</e>
+<e>
+<p>
+<l>gandul<s n="adj"/></l>
+<r>gandulo<s n="adj"/></r>
 </p>
 </e>
 <e>
@@ -13875,7 +13884,7 @@
 <e>
 <i>marqués<s n="n"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>marquesa<s n="n"/></l>
 <r>marquesiña<s n="n"/></r>
@@ -16434,15 +16443,9 @@
 <e>
 <i>pantalón<s n="n"/></i>
 </e>
-<e r="LR">
+<e>
 <p>
 <l>fantasma<s n="n"/><s n="mf"/></l>
-<r>pantasma<s n="n"/><s n="f"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>fantasma<s n="n"/><s n="GD"/></l>
 <r>pantasma<s n="n"/><s n="f"/></r>
 </p>
 </e>
@@ -17325,6 +17328,15 @@
 <r>pícaro<s n="n"/></r>
 </p>
 </e>
+<e r="RL">
+<p>
+<l>niño<s n="adj"/></l>
+<r>pícaro<s n="adj"/></r>
+</p>
+</e>
+<e r="LR">
+<i>pícaro<s n="adj"/></i>
+</e>
 <e>
 <i>pico<s n="n"/></i>
 </e>
@@ -17425,7 +17437,10 @@
 </p>
 </e>
 <e>
-<i>pivote<s n="n"/></i>
+<p>
+<l>pivote<s n="n"/><s n="m"/></l>
+<r>pivote<s n="n"/><s n="mf"/></r>
+</p>
 </e>
 <e>
 <i>placa<s n="n"/></i>
@@ -18822,17 +18837,11 @@
 <r>rampla<s n="n"/></r>
 </p>
 </e>
-<e r="RL">
-<p>
-<l>rancio<s n="n"/><s n="m"/></l>
-<r>rancio<s n="n"/><s n="mf"/></r>
-</p>
-</e>
-<e r="LR">
-<i>rancio<s n="n"/><s n="m"/></i>
-</e>
 <e>
 <i>rancio<s n="adj"/></i>
+</e>
+<e>
+<i>rancio<s n="n"/></i>
 </e>
 <e>
 <p>
@@ -19327,6 +19336,12 @@
 <p>
 <l>astucia<s n="n"/></l>
 <r>renartería<s n="n"/></r>
+</p>
+</e>
+<e r="RL">
+<p>
+<l>astucia<s n="n"/></l>
+<r>renartaría<s n="n"/></r>
 </p>
 </e>
 <e>
@@ -24126,7 +24141,7 @@
 <r>noutrora<s n="adv"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>antaño<s n="adv"/></l>
 <r>outrora<s n="adv"/></r>
@@ -24347,12 +24362,6 @@
 </e>
 <e>
 <i>igual<s n="adv"/></i>
-</e>
-<e r="RL">
-<p>
-<l>incluso<s n="adv"/></l>
-<r>inclusive<s n="adv"/></r>
-</p>
 </e>
 <e r="RL">
 <i>incluso<s n="adv"/></i>
@@ -32796,7 +32805,7 @@
 <r>á<b/>beira<s n="adv"/></r>
 </p>
 </e>
-<e>
+<e r="RL">
 <p>
 <l>junto<b/>a<s n="adv"/></l>
 <r>onda<s n="adv"/></r>
@@ -32806,6 +32815,12 @@
 <p>
 <l>anoche<s n="adv"/></l>
 <r>onte<b/>á<b/>noite<s n="adv"/></r>
+</p>
+</e>
+<e r="RL">
+<p>
+<l>anoche<s n="adv"/></l>
+<r>onte<b/>pola<b/>noite<s n="adv"/></r>
 </p>
 </e>
 <e>
@@ -33576,7 +33591,7 @@
 <r>a<b/>valmontes<s n="adv"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>a<b/>montones<s n="adv"/></l>
 <r>a<b/>varrer<s n="adv"/></r>
@@ -39302,26 +39317,8 @@
 </e>
 <e r="RL">
 <p>
-<l>su<b/>respectivo<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></l>
-<r>cadanseu<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>sus<b/>respectivos<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></l>
-<r>cadanseu<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>su<b/>respectivo<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></l>
-<r>cadanseu<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>sus<b/>respectivos<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></l>
-<r>cadanseu<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r>
+<l>su<b/>respectivo<s n="adj"/><s n="pos"/></l>
+<r>cadanseu<s n="adj"/><s n="pos"/></r>
 </p>
 </e>
 <e r="LR">
@@ -41442,7 +41439,7 @@
 <e>
 <i>correctamente<s n="adv"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>corresponsal<s n="n"/></l>
 <r>correspondente<s n="n"/></r>
@@ -44124,7 +44121,7 @@
 <e>
 <p>
 <l>hotelero<s n="n"/></l>
-<r>hostaleiro<s n="n"/></r>
+<r>hoteleiro<s n="n"/></r>
 </p>
 </e>
 <e>
@@ -45343,6 +45340,12 @@
 <p>
 <l>enmienda<s n="n"/></l>
 <r>emenda<s n="n"/></r>
+</p>
+</e>
+<e r="RL">
+<p>
+<l>enmienda<s n="n"/></l>
+<r>enmenda<s n="n"/></r>
 </p>
 </e>
 <e>
@@ -46644,7 +46647,7 @@
 <e>
 <i>despropósito<s n="n"/></i>
 </e>
-<e r="RL">
+<e r="LR">
 <p>
 <l>costo<s n="n"/></l>
 <r>custo<s n="n"/></r>
@@ -49011,6 +49014,12 @@
 <r>exixible<s n="adj"/></r>
 </p>
 </e>
+<e r="RL">
+<p>
+<l>exigible<s n="adj"/></l>
+<r>exixíbel<s n="adj"/></r>
+</p>
+</e>
 <e>
 <p>
 <l>combatiente<s n="n"/></l>
@@ -50037,7 +50046,7 @@
 <r>desarraigamento<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>desbarajuste<s n="n"/></l>
 <r>barullo<s n="n"/></r>
@@ -51234,7 +51243,7 @@
 <e>
 <i>Borbón<s n="np"/></i>
 </e>
-<e>
+<e r="LR">
 <i>bordo<s n="n"/></i>
 </e>
 <e>
@@ -51430,7 +51439,7 @@
 <i>Cancela<s n="np"/></i>
 </e>
 <e>
-<i>Cancela<s n="np"/></i>
+<i>Cancelas<s n="np"/></i>
 </e>
 <e>
 <p>
@@ -55122,6 +55131,12 @@
 <r>albanelaría<s n="n"/></r>
 </p>
 </e>
+<e r="RL">
+<p>
+<l>albañilería<s n="n"/></l>
+<r>albanelaría<s n="n"/></r>
+</p>
+</e>
 <e>
 <p>
 <l>amabilidad<s n="n"/></l>
@@ -55699,6 +55714,9 @@
 <i>Amena<s n="np"/></i>
 </e>
 <e>
+<i>Orange<s n="np"/></i>
+</e>
+<e>
 <i>Anagrama<s n="np"/></i>
 </e>
 <e>
@@ -55991,8 +56009,8 @@
 </e>
 <e>
 <p>
-<l>La<b/>Alhambra<s n="n"/></l>
-<r>A<b/>Alhambra<s n="n"/></r>
+<l>La<b/>Alhambra<s n="np"/></l>
+<r>A<b/>Alhambra<s n="np"/></r>
 </p>
 </e>
 <e>
@@ -56000,8 +56018,8 @@
 </e>
 <e>
 <p>
-<l>La<b/>Antártida<s n="n"/></l>
-<r>A<b/>Antártida<s n="n"/></r>
+<l>La<b/>Antártida<s n="np"/></l>
+<r>A<b/>Antártida<s n="np"/></r>
 </p>
 </e>
 <e>
@@ -56009,8 +56027,8 @@
 </e>
 <e>
 <p>
-<l>Los<b/>Alpes<s n="n"/></l>
-<r>Os<b/>Alpes<s n="n"/></r>
+<l>Los<b/>Alpes<s n="np"/></l>
+<r>Os<b/>Alpes<s n="np"/></r>
 </p>
 </e>
 <e>
@@ -61139,8 +61157,8 @@
 </e>
 <e r="RL">
 <p>
-<l>comestible<s n="n"/></l>
-<r>comestíbel<s n="n"/></r>
+<l>comestible<s n="n"/><s n="m"/></l>
+<r>comestíbel<s n="n"/><s n="mf"/></r>
 </p>
 </e>
 <e>
@@ -63477,7 +63495,7 @@
 <e>
 <i>Pitu<s n="np"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>pívot<s n="n"/></l>
 <r>pivote<s n="n"/></r>
@@ -67769,19 +67787,19 @@
 </e>
 <e r="LR">
 <p>
-<l>parálisis<s n="n"/><s n="m"/><s n="sp"/></l>
+<l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l>
 <r>parálise<s n="n"/><s n="f"/><s n="ND"/></r>
 </p>
 </e>
 <e r="RL">
 <p>
-<l>parálisis<s n="n"/><s n="m"/><s n="sp"/></l>
+<l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l>
 <r>parálise<s n="n"/><s n="m"/><s n="sg"/></r>
 </p>
 </e>
 <e r="RL">
 <p>
-<l>parálisis<s n="n"/><s n="m"/><s n="sp"/></l>
+<l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l>
 <r>parálise<s n="n"/><s n="m"/><s n="pl"/></r>
 </p>
 </e>
@@ -70689,7 +70707,7 @@
 <r>vimbio<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>mister<s n="n"/></l>
 <r>míster<s n="n"/></r>
@@ -73631,8 +73649,8 @@
 </e>
 <e r="RL">
 <p>
-<l>indefectiblemente<s n="adj"/></l>
-<r>indefectibelmente<s n="adj"/></r>
+<l>indefectiblemente<s n="adv"/></l>
+<r>indefectibelmente<s n="adv"/></r>
 </p>
 </e>
 <e>
@@ -73796,8 +73814,8 @@
 </e>
 <e r="RL">
 <p>
-<l>inexplicablemente<s n="adj"/></l>
-<r>inexplicabelmente<s n="adj"/></r>
+<l>inexplicablemente<s n="adv"/></l>
+<r>inexplicabelmente<s n="adv"/></r>
 </p>
 </e>
 <e>
@@ -77847,10 +77865,22 @@
 <e>
 <i>reelección<s n="n"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
-<l>regante<s n="n"/></l>
-<r>regador<s n="n"/></r>
+<l>regante<s n="n"/><s n="mf"/></l>
+<r>regador<s n="n"/><s n="GD"/></r>
+</p>
+</e>
+<e r="RL">
+<p>
+<l>regante<s n="n"/><s n="mf"/></l>
+<r>regador<s n="n"/><s n="m"/></r>
+</p>
+</e>
+<e r="RL">
+<p>
+<l>regante<s n="n"/><s n="mf"/></l>
+<r>regador<s n="n"/><s n="f"/></r>
 </p>
 </e>
 <e>
@@ -88830,6 +88860,9 @@
 <i>La<b/>Bañeza<s n="np"/></i>
 </e>
 <e>
+<i>Bañeza<s n="np"/></i>
+</e>
+<e>
 <i>Los<b/>Barrios<b/>de<b/>Luna<s n="np"/></i>
 </e>
 <e>
@@ -92759,7 +92792,7 @@
 <r>acollemento<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>adiestramiento<s n="n"/></l>
 <r>adestramento<s n="n"/></r>
@@ -93272,8 +93305,11 @@
 <r>hastado<s n="adj"/></r>
 </p>
 </e>
-<e r="LR">
-<i>atrasado<s n="adj"/></i>
+<e>
+<p>
+<l>retrasado<s n="adj"/></l>
+<r>atrasado<s n="adj"/></r>
+</p>
 </e>
 <e r="LR">
 <p>
@@ -94133,7 +94169,7 @@
 <e>
 <i>Cim<s n="np"/></i>
 </e>
-<e>
+<e r="LR">
 <i>cinto<s n="n"/></i>
 </e>
 <e>
@@ -94946,7 +94982,7 @@
 <e>
 <i>Delio<s n="np"/></i>
 </e>
-<e>
+<e r="LR">
 <i>demo<s n="n"/></i>
 </e>
 <e>
@@ -97868,6 +97904,12 @@
 <r>sementeiro<s n="n"/></r>
 </p>
 </e>
+<e r="LR">
+<p>
+<l>semillero<s n="n"/></l>
+<r>alcouve<s n="n"/></r>
+</p>
+</e>
 <e>
 <i>vedado<s n="adj"/></i>
 </e>
@@ -98449,9 +98491,6 @@
 </e>
 <e>
 <i>Recoletos<s n="np"/></i>
-</e>
-<e>
-<i>trasluz<s n="n"/></i>
 </e>
 <e>
 <p>
@@ -100823,7 +100862,7 @@
 <e>
 <p>
 <l>pseudoelegir<s n="vblex"/></l>
-<r>pseudoelixir <s n="vblex"/></r>
+<r>pseudoelixir<s n="vblex"/></r>
 </p>
 </e>
 <e>
@@ -104069,7 +104108,7 @@
 <e>
 <i>audición<s n="n"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>atisbo<s n="n"/></l>
 <r>indicio<s n="n"/></r>
@@ -104387,7 +104426,7 @@
 <r>a<b/>fume<b/>de<b/>carozo<s n="adv"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>a<b/>todo<b/>pasto<s n="adv"/></l>
 <r>a<b/>varrer<s n="adv"/></r>
@@ -104405,7 +104444,7 @@
 <r>nun<b/>tris<s n="adv"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>aquí<b/>paz<b/>y<b/>después<b/>gloria<s n="adv"/></l>
 <r>morra<b/>o<b/>conto<s n="adv"/></r>
@@ -104423,7 +104462,7 @@
 <r>un<b/>bo<b/>tanto<s n="adv"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>a<b/>manos<b/>llenas<s n="adv"/></l>
 <r>a<b/>mancheas<s n="adv"/></r>
@@ -104477,7 +104516,7 @@
 <r>como<b/>un<b/>templo<s n="adv"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>a<b/>todo<b/>plan<s n="adv"/></l>
 <r>ao<b/>grande<s n="adv"/></r>
@@ -104537,7 +104576,7 @@
 <r>coa<b/>corda<b/>no<b/>pescozo<s n="adv"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>hasta<b/>en<b/>la<b/>sopa<s n="adv"/></l>
 <r>en<b/>todas<b/>partes<s n="adv"/></r>
@@ -104555,7 +104594,7 @@
 <r>tapa<b/>dos<b/>miolos<s n="adv"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>de<b/>tarde<b/>en<b/>tarde<s n="adv"/></l>
 <r>de<b/>cando<b/>en<b/>vez<s n="adv"/></r>
@@ -105110,7 +105149,7 @@
 <r>arrefriado<s n="n"/></r>
 </p>
 </e>
-<e r="LR">
+<e>
 <p>
 <l>resfriado<s n="adj"/></l>
 <r>arrefriado<s n="adj"/></r>
@@ -106760,7 +106799,7 @@
 <e r="LR">
 <i>aterrar<s n="vblex"/></i>
 </e>
-<e r="LR">
+<e>
 <i>aterrado<s n="adj"/></i>
 </e>
 <e>
@@ -106984,6 +107023,24 @@
 <p>
 <l>ambos<s n="det"/><s n="ind"/></l>
 <r>ambos<b/>os<s n="det"/><s n="ind"/></r>
+</p>
+</e>
+<e r="RL">
+<p>
+<l>ambos<s n="det"/><s n="ind"/></l>
+<r>ámbolos<s n="det"/><s n="ind"/></r>
+</p>
+</e>
+<e r="RL">
+<p>
+<l>ambos<s n="det"/><s n="ind"/></l>
+<r>entrámbolos<s n="det"/><s n="ind"/></r>
+</p>
+</e>
+<e r="RL">
+<p>
+<l>ambos<s n="det"/><s n="ind"/></l>
+<r>entrambos<s n="det"/><s n="ind"/></r>
 </p>
 </e>
 <e r="RL">
@@ -112691,6 +112748,15 @@
 </e>
 <e>
 <i>San<b/>Patricio<s n="n"/></i>
+</e>
+<e>
+<i>arrebatador<s n="adj"/></i>
+</e>
+<e r="RL">
+<p>
+<l>arrebatador<s n="adj"/><s n="GD"/></l>
+<r>engaiolante<s n="adj"/><s n="mf"/></r>
+</p>
 </e>
 
 
