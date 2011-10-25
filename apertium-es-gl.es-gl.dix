@@ -279,12 +279,6 @@
 <r>acerto<s n="n"/></r>
 </p>
 </e>
-<e r="RL">
-<p>
-<l>patrimonio<s n="n"/></l>
-<r>acervo<s n="n"/></r>
-</p>
-</e>
 <e>
 <p>
 <l>encendido<s n="adj"/></l>
@@ -3744,12 +3738,6 @@
 <e>
 <i>campo<s n="n"/></i>
 </e>
-<e r="RL">
-<p>
-<l>cementerio<s n="n"/></l>
-<r>camposanto<s n="n"/></r>
-</p>
-</e>
 <e>
 <p>
 <l>perro<s n="n"/></l>
@@ -4671,22 +4659,10 @@
 <r>chofer<s n="n"/></r>
 </p>
 </e>
-<e r="RL">
-<p>
-<l>negocio<s n="n"/></l>
-<r>choio<s n="n"/></r>
-</p>
-</e>
 <e>
 <p>
 <l>lluvia<s n="n"/></l>
 <r>choiva<s n="n"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>trago<s n="n"/></l>
-<r>chopo<s n="n"/></r>
 </p>
 </e>
 <e>
@@ -8284,12 +8260,6 @@
 <p>
 <l>ingenioso<s n="adj"/></l>
 <r>enxeñoso<s n="adj"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>seco<s n="adj"/></l>
-<r>enxoito<s n="adj"/></r>
 </p>
 </e>
 <e>
@@ -12906,12 +12876,6 @@
 <e>
 <i>licor<s n="n"/></i>
 </e>
-<e r="RL">
-<p>
-<l>lucha<s n="n"/></l>
-<r>lide<s n="n"/></r>
-</p>
-</e>
 <e>
 <i>líder<s n="n"/></i>
 </e>
@@ -14287,12 +14251,6 @@
 <p>
 <l>digno<s n="adj"/></l>
 <r>merecedor<s n="adj"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>mérito<s n="n"/></l>
-<r>merecemento<s n="n"/></r>
 </p>
 </e>
 <e>
@@ -15999,7 +15957,7 @@
 <r>onceavo<s n="adj"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <i>onda<s n="n"/></i>
 </e>
 <e>
@@ -19272,12 +19230,6 @@
 <r>relatorio<s n="n"/><s n="m"/></r>
 </p>
 </e>
-<e r="RL">
-<p>
-<l>importancia<s n="n"/></l>
-<r>relevancia<s n="n"/></r>
-</p>
-</e>
 <e>
 <i>relevante<s n="adj"/></i>
 </e>
@@ -19628,12 +19580,6 @@
 </e>
 <e>
 <i>retrato<s n="n"/></i>
-</e>
-<e r="RL">
-<p>
-<l>instante<s n="n"/></l>
-<r>retrinco<s n="n"/></r>
-</p>
 </e>
 <e>
 <i>reunión<s n="n"/></i>
@@ -27033,12 +26979,6 @@
 <r>aparvar<s n="vblex"/></r>
 </p>
 </e>
-<e r="RL">
-<p>
-<l>bajar<s n="vblex"/></l>
-<r>apear<s n="vblex"/></r>
-</p>
-</e>
 <e>
 <p>
 <l>apretar<s n="vblex"/></l>
@@ -27198,12 +27138,6 @@
 <e>
 <i>arrestar<s n="vblex"/></i>
 </e>
-<e r="RL">
-<p>
-<l>aportar<s n="vblex"/></l>
-<r>arribar<s n="vblex"/></r>
-</p>
-</e>
 <e r="LR">
 <p>
 <l>aportar<s n="vblex"/></l>
@@ -27353,12 +27287,6 @@
 </e>
 <e>
 <i>atender<s n="vblex"/></i>
-</e>
-<e r="RL">
-<p>
-<l>horrorizar<s n="vblex"/></l>
-<r>aterrar<s n="vblex"/></r>
-</p>
 </e>
 <e r="RL">
 <p>
@@ -28641,12 +28569,6 @@
 <e>
 <i>desconfiar<s n="vblex"/></i>
 </e>
-<e r="RL">
-<p>
-<l>deducir<s n="vblex"/></l>
-<r>descontar<s n="vblex"/></r>
-</p>
-</e>
 <e>
 <p>
 <l>desconocer<s n="vblex"/></l>
@@ -29079,7 +29001,7 @@
 <e>
 <i>embeber<s n="vblex"/></i>
 </e>
-<e>
+<e r="LR">
 <i>emendar<s n="vblex"/></i>
 </e>
 <e>
@@ -30700,12 +30622,6 @@
 <p>
 <l>mantener<s n="vblex"/></l>
 <r>manter<s n="vblex"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>asombrar<s n="vblex"/></l>
-<r>marabillar<s n="vblex"/></r>
 </p>
 </e>
 <e>
@@ -32600,12 +32516,6 @@
 </e>
 <e>
 <i>versar<s n="vblex"/></i>
-</e>
-<e r="RL">
-<p>
-<l>derramar<s n="vblex"/></l>
-<r>verter<s n="vblex"/></r>
-</p>
 </e>
 <e>
 <i>vestir<s n="vblex"/></i>
@@ -43152,7 +43062,7 @@
 <r>abolar<s n="vblex"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>abombar<s n="vblex"/></l>
 <r>bombear<s n="vblex"/></r>
@@ -44652,7 +44562,7 @@
 <e>
 <i>historial<s n="n"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>desguace<s n="n"/></l>
 <r>despezamento<s n="n"/></r>
@@ -46434,7 +46344,7 @@
 <e>
 <i>fletán<s n="n"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>escombrera<s n="n"/><s n="f"/></l>
 <r>vertedoiro<s n="n"/><s n="m"/></r>
@@ -47874,7 +47784,7 @@
 <e>
 <i>designio<s n="n"/></i>
 </e>
-<e>
+<e r="LR">
 <i>desmonte<s n="n"/></i>
 </e>
 <e>
@@ -48354,7 +48264,7 @@
 <r>gardacostas<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>guiñol<s n="n"/></l>
 <r>monicreque<s n="n"/></r>
@@ -48912,7 +48822,7 @@
 <r>espiñento<s n="adj"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>enclavado<s n="adj"/></l>
 <r>situado<s n="adj"/></r>
@@ -55338,7 +55248,7 @@
 <r>alzamento<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>amago<s n="n"/></l>
 <r>simulacro<s n="n"/></r>
@@ -56169,7 +56079,7 @@
 <r>autoescola<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>barandilla<s n="n"/></l>
 <r>varanda<s n="n"/></r>
@@ -65889,7 +65799,7 @@
 <r>xerga<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>jeringuilla<s n="n"/></l>
 <r>xiringa<s n="n"/></r>
@@ -71397,7 +71307,7 @@
 <r>nostálxico<s n="adj"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>nuboso<s n="adj"/></l>
 <r>nubrado<s n="adj"/></r>
@@ -76146,7 +76056,7 @@
 <e>
 <i>tenor<s n="n"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>tiovivo<s n="n"/></l>
 <r>carrusel<s n="n"/></r>
@@ -77607,7 +77517,7 @@
 <e>
 <i>afinar<s n="vblex"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>afincar<s n="vblex"/></l>
 <r>fincar<s n="vblex"/></r>
@@ -83289,7 +83199,7 @@
 <r>posteridade<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>postgrado<s n="n"/></l>
 <r>posgrao<s n="n"/></r>
@@ -92828,7 +92738,7 @@
 <r>balizamento<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>sobrecosto<s n="n"/></l>
 <r>sobrecusto<s n="n"/></r>
@@ -95132,7 +95042,7 @@
 <e>
 <i>Deva<s n="np"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>devaneo<s n="n"/></l>
 <r>desatino<s n="n"/></r>
@@ -95786,7 +95696,7 @@
 <e>
 <i>errado<s n="adj"/></i>
 </e>
-<e>
+<e r="LR">
 <i>errar<s n="vblex"/></i>
 </e>
 <e>
@@ -95942,7 +95852,7 @@
 <r>estorniño<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <i>estrago<s n="n"/></i>
 </e>
 <e>
@@ -96308,13 +96218,13 @@
 <e>
 <i>Fele<s n="np"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>feligrés<s n="n"/></l>
 <r>fregués<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>feligrés<s n="adj"/></l>
 <r>fregués<s n="adj"/></r>
@@ -99479,7 +99389,7 @@
 <e>
 <i>Losantos<s n="np"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>loseta<s n="n"/></l>
 <r>lousa<s n="n"/></r>
@@ -103259,10 +103169,10 @@
 <e>
 <i>pasquín<s n="n"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
-<l>pastizal<s n="n"/></l>
-<r>pasteiro<s n="n"/></r>
+<l>pastizal<s n="n"/><s n="m"/></l>
+<r>pasteiro<s n="n"/><s n="m"/></r>
 </p>
 </e>
 <e>
@@ -103553,7 +103463,7 @@
 <e>
 <i>Petersen<s n="np"/></i>
 </e>
-<e>
+<e r="LR">
 <i>petar<s n="vblex"/></i>
 </e>
 <e>
@@ -104057,7 +103967,7 @@
 <r>terceiro<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>enseña<s n="n"/></l>
 <r>insignia<s n="n"/></r>
@@ -104258,7 +104168,7 @@
 <e>
 <i>mutilar<s n="vblex"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>atiborrar<s n="vblex"/></l>
 <r>abarrotar<s n="vblex"/></r>
@@ -110324,12 +110234,6 @@
 </e>
 <e>
 <i>negación<s n="n"/></i>
-</e>
-<e>
-<p>
-<l>aledaños<s n="n"/></l>
-<r>arredores<s n="n"/></r>
-</p>
 </e>
 <e r="LR">
 <p>
