@@ -127696,7 +127696,7 @@ Data: 20/10/2011 -->
 </e>
 <e lm="onda">
 <i>onda</i>
-<par n="Deo_gratias__adv"/>
+<par n="a_condición_de_que__cnjadv"/>
 </e>
 <e lm="onte á noite">
 <i>onte<b/>á<b/>noite</i>
@@ -132328,10 +132328,6 @@ Data: 20/10/2011 -->
 <e lm="circuíto">
 <i>circuíto</i>
 <par n="Xulio__n"/>
-</e>
-<e lm="cisma">
-<i>cisma</i>
-<par n="aba__n"/>
 </e>
 <e lm="cita">
 <i>cita</i>
@@ -139087,7 +139083,7 @@ Data: 20/10/2011 -->
 </e>
 <e lm="notable">
 <i>notable</i>
-<par n="Xulio__n"/>
+<par n="acompañante__n"/>
 </e>
 <e lm="notación">
 <i>notación</i>
@@ -140332,10 +140328,6 @@ Data: 20/10/2011 -->
 <e lm="pita">
 <i>pita</i>
 <par n="aba__n"/>
-</e>
-<e lm="pivote">
-<i>pivote</i>
-<par n="Xulio__n"/>
 </e>
 <e lm="piñeiro">
 <i>piñeiro</i>
@@ -164584,10 +164576,6 @@ Data: 20/10/2011 -->
 <i>hectárea</i>
 <par n="aba__n"/>
 </e>
-<e lm="Heitor">
-<i>Heitor</i>
-<par n="Artai__np"/>
-</e>
 <e lm="Hendaia">
 <i>Hendaia</i>
 <par n="Muxia__np"/>
@@ -165260,10 +165248,6 @@ Data: 20/10/2011 -->
 </e>
 <e lm="Iraq">
 <i>Iraq</i>
-<par n="Muxia__np"/>
-</e>
-<e lm="Irak">
-<i>Irak</i>
 <par n="Muxia__np"/>
 </e>
 <e lm="Josito">
@@ -167731,10 +167715,10 @@ Data: 20/10/2011 -->
 <i>abucin</i>
 <par n="abaf/ar__vblex"/>
 </e>
-<e lm="abocinar">
+<e lm="abucinar">
 <p>
 <l>abúcin</l>
-<r>abocin</r>
+<r>abucin</r>
 </p>
 <par n="abáf/ar__vblex"/>
 </e>
@@ -168006,10 +167990,10 @@ Data: 20/10/2011 -->
 <i>acabalg</i>
 <par n="acheg/ar__vblex"/>
 </e>
-<e lm="acabalar">
+<e lm="acabalgar">
 <p>
-<l>acabál</l>
-<r>acabal</r>
+<l>acabálg</l>
+<r>acabalg</r>
 </p>
 <par n="achég/ar__vblex"/>
 </e>
@@ -170997,10 +170981,10 @@ Data: 20/10/2011 -->
 <i>homolog</i>
 <par n="acheg/ar__vblex"/>
 </e>
-<e lm="homológar">
+<e lm="homologar">
 <p>
 <l>homológ</l>
-<r>homológ</r>
+<r>homolog</r>
 </p>
 <par n="achég/ar__vblex"/>
 </e>
@@ -171740,7 +171724,7 @@ Data: 20/10/2011 -->
 <e lm="estampar">
 <p>
 <l>estámp</l>
-<r>estámp</r>
+<r>estamp</r>
 </p>
 <par n="abáf/ar__vblex"/>
 </e>
@@ -173836,10 +173820,10 @@ Data: 20/10/2011 -->
 <i>democrati</i>
 <par n="abra/zar__vblex"/>
 </e>
-<e lm="democratizzar">
+<e lm="democratizar">
 <p>
 <l>democratí</l>
-<r>democratiz</r>
+<r>democrati</r>
 </p>
 <par n="abrá/zar__vblex"/>
 </e>
@@ -174356,10 +174340,6 @@ Data: 20/10/2011 -->
 </e>
 <e lm="ilexítimo">
 <i>ilexítim</i>
-<par n="abarrotad/o__adj"/>
-</e>
-<e lm="espinoso">
-<i>espinos</i>
 <par n="abarrotad/o__adj"/>
 </e>
 <e lm="estoniano">
@@ -175124,10 +175104,6 @@ Data: 20/10/2011 -->
 </e>
 <e lm="Deramond">
 <i>Deramond</i>
-<par n="Artai__np"/>
-</e>
-<e lm="Cristobal">
-<i>Cristobal</i>
 <par n="Artai__np"/>
 </e>
 <e lm="Escort">
@@ -179733,10 +179709,10 @@ Data: 20/10/2011 -->
 <i>aglutin</i>
 <par n="abaf/ar__vblex"/>
 </e>
-<e lm="aglutínar">
+<e lm="aglutinar">
 <p>
-<l>aglutin</l>
-<r>aglutín</r>
+<l>aglutín</l>
+<r>aglutin</r>
 </p>
 <par n="abáf/ar__vblex"/>
 </e>
@@ -181458,10 +181434,6 @@ Data: 20/10/2011 -->
 <i>colofón</i>
 <par n="Xulio__n"/>
 </e>
-<e lm="A Bañeza">
-<i>A<b/>Bañeza</i>
-<par n="Muxia__np"/>
-</e>
 <e lm="Bañeza">
 <i>Bañeza</i>
 <par n="Muxia__np"/>
@@ -183178,10 +183150,10 @@ Data: 20/10/2011 -->
 <i>canali</i>
 <par n="abra/zar__vblex"/>
 </e>
-<e lm="canalízar">
+<e lm="canalizar">
 <p>
-<l>canali</l>
-<r>canalí</r>
+<l>canalí</l>
+<r>canali</r>
 </p>
 <par n="abrá/zar__vblex"/>
 </e>
@@ -186845,10 +186817,10 @@ Data: 20/10/2011 -->
 <i>atesour</i>
 <par n="abaf/ar__vblex"/>
 </e>
-<e lm="atesorar">
+<e lm="atesourar">
 <p>
 <l>atesóur</l>
-<r>atesor</r>
+<r>atesour</r>
 </p>
 <par n="abáf/ar__vblex"/>
 </e>
@@ -189380,10 +189352,10 @@ Data: 20/10/2011 -->
 <i>harmoni</i>
 <par n="abra/zar__vblex"/>
 </e>
-<e lm="harmonizzar">
+<e lm="harmonizar">
 <p>
-<l>harmoníz</l>
-<r>harmoniz</r>
+<l>harmoní</l>
+<r>harmoni</r>
 </p>
 <par n="abrá/zar__vblex"/>
 </e>
@@ -191330,10 +191302,6 @@ Data: 20/10/2011 -->
 <i>quinteto</i>
 <par n="Xulio__n"/>
 </e>
-<e lm="Quiroga">
-<i>Quiroga</i>
-<par n="Artai__np"/>
-</e>
 <e lm="quirófano">
 <i>quirófano</i>
 <par n="Xulio__n"/>
@@ -191885,10 +191853,6 @@ Data: 20/10/2011 -->
 <i>Pinario</i>
 <par n="Artai__np"/>
 </e>
-<e lm="Josefa">
-<i>Josefa</i>
-<par n="Artai__np"/>
-</e>
 <e lm="Lourdes">
 <i>Lourdes</i>
 <par n="Artai__np"/>
@@ -192317,10 +192281,10 @@ Data: 20/10/2011 -->
 <i>implant</i>
 <par n="abaf/ar__vblex"/>
 </e>
-<e lm="implántar">
+<e lm="implantar">
 <p>
 <l>implánt</l>
-<r>implánt</r>
+<r>implant</r>
 </p>
 <par n="abáf/ar__vblex"/>
 </e>
@@ -193747,10 +193711,10 @@ Data: 20/10/2011 -->
 <i>carrex</i>
 <par n="abaf/ar__vblex"/>
 </e>
-<e lm="carréxar">
+<e lm="carrexar">
 <p>
-<l>carrex</l>
-<r>carréx</r>
+<l>carréx</l>
+<r>carrex</r>
 </p>
 <par n="abáf/ar__vblex"/>
 </e>
@@ -194693,10 +194657,10 @@ Data: 20/10/2011 -->
 <i>anubr</i>
 <par n="abaf/ar__vblex"/>
 </e>
-<e lm="anúbrar">
+<e lm="anubrar">
 <p>
-<l>anubr</l>
-<r>anúbr</r>
+<l>anúbr</l>
+<r>anubr</r>
 </p>
 <par n="abáf/ar__vblex"/>
 </e>
@@ -195267,17 +195231,6 @@ Data: 20/10/2011 -->
 <e lm="Plasencia">
 <i>Plasencia</i>
 <par n="Muxia__np"/>
-</e>
-<e lm="mermar">
-<i>merm</i>
-<par n="abaf/ar__vblex"/>
-</e>
-<e lm="mermar">
-<p>
-<l>mérm</l>
-<r>merm</r>
-</p>
-<par n="abáf/ar__vblex"/>
 </e>
 <e lm="militar">
 <i>milit</i>
@@ -200347,17 +200300,6 @@ Data: 20/10/2011 -->
 <i>ordense</i>
 <par n="abraiante__adj"/>
 </e>
-<e lm="peatonalizar">
-<i>peatonali</i>
-<par n="abra/zar__vblex"/>
-</e>
-<e lm="peatonalizar">
-<p>
-<l>peatonalí</l>
-<r>peatonali</r>
-</p>
-<par n="abrá/zar__vblex"/>
-</e>
 <e lm="Naveiro">
 <i>Naveiro</i>
 <par n="Artai__np"/>
@@ -201333,10 +201275,6 @@ Data: 20/10/2011 -->
 <e lm="oncólogo">
 <i>oncólog</i>
 <par n="académic/o__n"/>
-</e>
-<e lm="fregués">
-<i>fregu</i>
-<par n="burgu/és__n"/>
 </e>
 <e lm="ponferradino">
 <i>ponferradin</i>
@@ -207672,10 +207610,6 @@ Data: 20/10/2011 -->
 </e>
 <e lm="vermú">
 <i>vermú</i>
-<par n="Xulio__n"/>
-</e>
-<e lm="vertedoiro">
-<i>vertedoiro</i>
 <par n="Xulio__n"/>
 </e>
 <e lm="veterinario">
@@ -214298,10 +214232,10 @@ Data: 20/10/2011 -->
 <i>priori</i>
 <par n="abra/zar__vblex"/>
 </e>
-<e lm="priorizzar">
+<e lm="priorizar">
 <p>
-<l>prioriz</l>
-<r>prioriz</r>
+<l>priorí</l>
+<r>priori</r>
 </p>
 <par n="abrá/zar__vblex"/>
 </e>
@@ -228576,17 +228510,6 @@ Data: 20/10/2011 -->
 <i>expresionismo</i>
 <par n="Xulio__n"/>
 </e>
-<e lm="exprimir">
-<i>exprim</i>
-<par n="aburr/ir__vblex"/>
-</e>
-<e lm="exprimir">
-<p>
-<l>exprím</l>
-<r>exprim</r>
-</p>
-<par n="abúrr/ir__vblex"/>
-</e>
 <e lm="expropiatorio">
 <i>expropiatori</i>
 <par n="abarrotad/o__adj"/>
@@ -232184,10 +232107,6 @@ Data: 20/10/2011 -->
 <i>libreir</i>
 <par n="académic/o__n"/>
 </e>
-<e lm="lide">
-<i>lide</i>
-<par n="actor__n"/>
-</e>
 <e lm="Lieiro">
 <i>Lieiro</i>
 <par n="Muxia__np"/>
@@ -232418,10 +232337,6 @@ Data: 20/10/2011 -->
 <e lm="ría">
 <i>ría</i>
 <par n="aba__n"/>
-</e>
-<e lm="areal">
-<i>area</i>
-<par n="capita/l__n"/>
 </e>
 <e lm="insignia">
 <i>insignia</i>
@@ -232817,7 +232732,7 @@ Data: 20/10/2011 -->
 <par n="abáf/ar__vblex"/>
 </e>
 <e lm="mutilar">
-<i>mutilt</i>
+<i>mutil</i>
 <par n="abaf/ar__vblex"/>
 </e>
 <e lm="mutilar">
@@ -233311,10 +233226,10 @@ Data: 20/10/2011 -->
 <i>atrincheir</i>
 <par n="abaf/ar__vblex"/>
 </e>
-<e lm="atrincherar">
+<e lm="atrincheirar">
 <p>
-<l>atrinchér</l>
-<r>atrincher</r>
+<l>atrinchéir</l>
+<r>atrincheir</r>
 </p>
 <par n="abáf/ar__vblex"/>
 </e>
@@ -234561,10 +234476,6 @@ Data: 20/10/2011 -->
 <e lm="militarmente">
 <i>militarmente</i>
 <par n="Deo_gratias__adv"/>
-</e>
-<e lm="mimar">
-<i>mim</i>
-<par n="abaf/ar__vblex"/>
 </e>
 <e lm="minisaia">
 <i>minisaia</i>
@@ -237960,10 +237871,6 @@ Data: 20/10/2011 -->
 <i>pernicios</i>
 <par n="abarrotad/o__adj"/>
 </e>
-<e lm="pernoctar">
-<i>pernoct</i>
-<par n="abaf/ar__vblex"/>
-</e>
 <e lm="perpendicular">
 <i>perpendicular</i>
 <par n="anterior__adj"/>
@@ -238105,18 +238012,6 @@ Data: 20/10/2011 -->
 <e lm="Piglet">
 <i>Piglet</i>
 <par n="Artai__np"/>
-</e>
-<e lm="neno rico">
-<p>
-<l>neno<b/>rico</l>
-<r>neno<b/>rico<s n="n"/><s n="m"/><s n="sg"/></r>
-</p>
-</e>
-<e lm="neno rico">
-<p>
-<l>nenos<b/>ricos</l>
-<r>neno<b/>rico<s n="n"/><s n="m"/><s n="pl"/></r>
-</p>
 </e>
 <e lm="pixama">
 <i>pixama</i>

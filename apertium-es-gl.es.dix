@@ -21219,12 +21219,6 @@
 </e>
 <e>
 <p>
-<l>elabamos</l>
-<r>elar<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
-</p>
-</e>
-<e>
-<p>
 <l>elábamos</l>
 <r>elar<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
 </p>
@@ -28004,12 +27998,6 @@
 <e>
 <p>
 <l>es</l>
-<r>er<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
-</p>
-</e>
-<e>
-<p>
-<l>éis</l>
 <r>er<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
 </p>
 </e>
@@ -38448,12 +38436,6 @@
 </e>
 <e>
 <p>
-<l>iecemos</l>
-<r>ezar<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
-</p>
-</e>
-<e>
-<p>
 <l>iece</l>
 <r>ezar<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r>
 </p>
@@ -39238,7 +39220,7 @@
 <r>eír<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>itas</l>
 <r>eír<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r>
@@ -39250,7 +39232,7 @@
 <r>eír<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>ita</l>
 <r>eír<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r>
@@ -39262,7 +39244,7 @@
 <r>eír<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>itos</l>
 <r>eír<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r>
@@ -39274,7 +39256,7 @@
 <r>eír<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>ito</l>
 <r>eír<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r>
@@ -42343,7 +42325,7 @@
 <r>imir<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>esas</l>
 <r>imir<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r>
@@ -42355,7 +42337,7 @@
 <r>imir<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>esa</l>
 <r>imir<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r>
@@ -42367,7 +42349,7 @@
 <r>imir<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>esos</l>
 <r>imir<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r>
@@ -42379,7 +42361,7 @@
 <r>imir<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>eso</l>
 <r>imir<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r>
@@ -51041,12 +51023,6 @@
 </e>
 <e>
 <p>
-<l>oblabamos</l>
-<r>oblar<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
-</p>
-</e>
-<e>
-<p>
 <l>oblábamos</l>
 <r>oblar<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
 </p>
@@ -53279,12 +53255,6 @@
 <r>olar<s n="vblex"/><s n="inf"/><j/></r>
 </p>
 <par n="S__sabér"/>
-</e>
-<e>
-<p>
-<l>olabamos</l>
-<r>olar<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
-</p>
 </e>
 <e>
 <p>
@@ -56637,12 +56607,6 @@
 <r>onar<s n="vblex"/><s n="inf"/><j/></r>
 </p>
 <par n="S__sabér"/>
-</e>
-<e>
-<p>
-<l>onabamos</l>
-<r>onar<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
-</p>
 </e>
 <e>
 <p>
@@ -63349,12 +63313,6 @@
 <r>ovar<s n="vblex"/><s n="inf"/><j/></r>
 </p>
 <par n="S__sabér"/>
-</e>
-<e>
-<p>
-<l>ovabamos</l>
-<r>ovar<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
-</p>
 </e>
 <e>
 <p>
@@ -146431,6 +146389,10 @@
 <i>parroquian</i>
 <par n="abogad_o__n"/>
 </e>
+<e lm="parroquiano">
+<i>parroquian</i>
+<par n="absolut_o__adj"/>
+</e>
 <e lm="ponferradino">
 <i>ponferradin</i>
 <par n="abogad_o__n"/>
@@ -152732,7 +152694,7 @@
 </e>
 <e lm="regante">
 <i>regante</i>
-<par n="abandono__n"/>
+<par n="agente__n"/>
 </e>
 <e lm="regeneración">
 <i>regeneraci</i>
@@ -183175,10 +183137,6 @@
 <i>pernicios</i>
 <par n="absolut_o__adj"/>
 </e>
-<e lm="pernoctar">
-<i>pernoct</i>
-<par n="abandon/ar__vblex"/>
-</e>
 <e lm="perpendicular">
 <i>perpendicular</i>
 <par n="actual__adj"/>
@@ -193160,6 +193118,18 @@
 <e lm="gandul">
 <i>gandul</i>
 <par n="abrumador__adj"/>
+</e>
+<e lm="sabandija">
+<i>sabandija</i>
+<par n="abundancia__n"/>
+</e>
+<e lm="Rías Altas">
+<i>Rías<b/>Altas</i>
+<par n="Muxia__np"/>
+</e>
+<e lm="Rías Baixas">
+<i>Rías<b/>Baixas</i>
+<par n="Muxia__np"/>
 </e>
 
 

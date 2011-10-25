@@ -633,12 +633,6 @@
 <e>
 <i>africano<s n="n"/></i>
 </e>
-<e r="RL">
-<p>
-<l>ofensa<s n="n"/></l>
-<r>afronta<s n="n"/></r>
-</p>
-</e>
 <e>
 <p>
 <l>cariño<s n="n"/></l>
@@ -1708,12 +1702,6 @@
 <p>
 <l>archivo<s n="n"/></l>
 <r>arquivo<s n="n"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>barrio<s n="n"/></l>
-<r>arrabalde<s n="n"/></r>
 </p>
 </e>
 <e r="RL">
@@ -4842,12 +4830,6 @@
 <e>
 <i>circunstancia<s n="n"/></i>
 </e>
-<e r="RL">
-<p>
-<l>manía<s n="n"/><s n="f"/></l>
-<r>cisma<s n="n"/><s n="m"/></r>
-</p>
-</e>
 <e>
 <i>cita<s n="n"/></i>
 </e>
@@ -4937,12 +4919,6 @@
 </e>
 <e>
 <i>cobertura<s n="n"/></i>
-</e>
-<e r="RL">
-<p>
-<l>ambición<s n="n"/></l>
-<r>cobiza<s n="n"/></r>
-</p>
 </e>
 <e r="RL">
 <p>
@@ -11040,7 +11016,7 @@
 <e>
 <i>hospital<s n="n"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>hostalero<s n="n"/></l>
 <r>hostaleiro<s n="n"/></r>
@@ -11676,12 +11652,6 @@
 <r>inesgotábel<s n="adj"/></r>
 </p>
 </e>
-<e r="RL">
-<p>
-<l>interminable<s n="adj"/></l>
-<r>inesgotable<s n="adj"/></r>
-</p>
-</e>
 <e>
 <i>inesperado<s n="adj"/></i>
 </e>
@@ -11899,12 +11869,6 @@
 <p>
 <l>iniquidad<s n="n"/></l>
 <r>iniquidade<s n="n"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>cercanía<s n="n"/></l>
-<r>inmediacións<s n="n"/></r>
 </p>
 </e>
 <e>
@@ -13555,12 +13519,6 @@
 </p>
 </e>
 <e r="RL">
-<p>
-<l>manga<s n="n"/></l>
-<r>mangueira<s n="n"/></r>
-</p>
-</e>
-<e r="RL">
 <i>manía<s n="n"/></i>
 </e>
 <e>
@@ -13944,12 +13902,6 @@
 <e>
 <i>matrimonio<s n="n"/></i>
 </e>
-<e r="RL">
-<p>
-<l>madre<s n="n"/></l>
-<r>matriz<s n="n"/></r>
-</p>
-</e>
 <e>
 <p>
 <l>magia<s n="n"/></l>
@@ -14247,12 +14199,6 @@
 <r>merda<s n="n"/></r>
 </p>
 </e>
-<e r="RL">
-<p>
-<l>digno<s n="adj"/></l>
-<r>merecedor<s n="adj"/></r>
-</p>
-</e>
 <e>
 <i>mérito<s n="n"/></i>
 </e>
@@ -14365,12 +14311,6 @@
 <p>
 <l>gato<s n="n"/></l>
 <r>mico<s n="n"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>micrófono<s n="n"/></l>
-<r>micro<s n="n"/></r>
 </p>
 </e>
 <e>
@@ -15297,12 +15237,6 @@
 <r>negrón<s n="n"/></r>
 </p>
 </e>
-<e r="RL">
-<p>
-<l>infancia<s n="n"/></l>
-<r>nenez<s n="n"/></r>
-</p>
-</e>
 <e>
 <p>
 <l>niño<s n="n"/></l>
@@ -15379,12 +15313,6 @@
 <p>
 <l>japonés<s n="adj"/></l>
 <r>nipón<s n="adj"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>claridad<s n="n"/></l>
-<r>nitidez<s n="n"/></r>
 </p>
 </e>
 <e r="RL">
@@ -15688,12 +15616,6 @@
 <p>
 <l>boda<s n="n"/><s n="f"/><s n="ND"/></l>
 <r>nupcias<s n="n"/><s n="f"/><s n="pl"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>alimentación<s n="n"/></l>
-<r>nutrición<s n="n"/></r>
 </p>
 </e>
 <e>
@@ -18657,12 +18579,6 @@
 <r>quilo<s n="n"/></r>
 </p>
 </e>
-<e r="RL">
-<p>
-<l>kilo<s n="n"/></l>
-<r>quilogramo<s n="n"/></r>
-</p>
-</e>
 <e>
 <p>
 <l>kilómetro<s n="n"/></l>
@@ -18705,7 +18621,7 @@
 <e>
 <i>quíntuplo<s n="n"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>quíntuple<s n="n"/></l>
 <r>quíntuplo<s n="n"/></r>
@@ -20715,7 +20631,7 @@
 <e>
 <i>silicio<s n="n"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>chiquillo<s n="n"/></l>
 <r>raparigo<s n="n"/></r>
@@ -23604,18 +23520,6 @@
 <r>xerarquía<s n="n"/></r>
 </p>
 </e>
-<e r="RL">
-<p>
-<l>alemán<s n="n"/></l>
-<r>xermano<s n="n"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>alemán<s n="adj"/></l>
-<r>xermano<s n="adj"/></r>
-</p>
-</e>
 <e>
 <p>
 <l>jersey<s n="n"/></l>
@@ -26332,12 +26236,6 @@
 </p>
 </e>
 <e r="RL">
-<p>
-<l>absorber<s n="vblex"/></l>
-<r>acaparar<s n="vblex"/></r>
-</p>
-</e>
-<e r="RL">
 <i>acariciar<s n="vblex"/></i>
 </e>
 <e>
@@ -26687,12 +26585,6 @@
 </e>
 <e>
 <i>agradecer<s n="vblex"/></i>
-</e>
-<e r="RL">
-<p>
-<l>aumentar<s n="vblex"/></l>
-<r>agrandar<s n="vblex"/></r>
-</p>
 </e>
 <e>
 <i>agregar<s n="vblex"/></i>
@@ -27380,12 +27272,6 @@
 </e>
 <e>
 <i>avanzar<s n="vblex"/></i>
-</e>
-<e r="RL">
-<p>
-<l>acercar<s n="vblex"/></l>
-<r>aveciñar<s n="vblex"/></r>
-</p>
 </e>
 <e r="RL">
 <p>
@@ -28302,12 +28188,6 @@
 <e>
 <i>cultivar<s n="vblex"/></i>
 </e>
-<e r="RL">
-<p>
-<l>felicitar<s n="vblex"/></l>
-<r>cumprimentar<s n="vblex"/></r>
-</p>
-</e>
 <e>
 <p>
 <l>cumplir<s n="vblex"/></l>
@@ -28623,7 +28503,7 @@
 <r>desenrolar<s n="vblex"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>enrollar<s n="vblex"/></l>
 <r>enrolar<s n="vblex"/></r>
@@ -29189,12 +29069,6 @@
 </e>
 <e>
 <i>enganchar<s n="vblex"/></i>
-</e>
-<e r="RL">
-<p>
-<l>devorar<s n="vblex"/></l>
-<r>engulir<s n="vblex"/></r>
-</p>
 </e>
 <e>
 <p>
@@ -30569,12 +30443,6 @@
 </e>
 <e r="RL">
 <p>
-<l>aplastar<s n="vblex"/></l>
-<r>machucar<s n="vblex"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
 <l>dañar<s n="vblex"/></l>
 <r>magoar<s n="vblex"/></r>
 </p>
@@ -31923,7 +31791,7 @@
 <e>
 <i>ruborizar<s n="vblex"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>susurrar<s n="vblex"/></l>
 <r>rumorear<s n="vblex"/></r>
@@ -32717,8 +32585,8 @@
 </e>
 <e r="RL">
 <p>
-<l>junto<b/>a<s n="adv"/></l>
-<r>onda<s n="adv"/></r>
+<l>junto<b/>a<s n="cnjadv"/></l>
+<r>onda<s n="cnjadv"/></r>
 </p>
 </e>
 <e>
@@ -41619,7 +41487,7 @@
 <e>
 <i>galaico<s n="adj"/></i>
 </e>
-<e>
+<e r="LR">
 <i>galeguista<s n="n"/></i>
 </e>
 <e>
@@ -44489,12 +44357,6 @@
 </e>
 <e>
 <p>
-<l>hostelero<s n="adj"/></l>
-<r>hostaleiro<s n="adj"/></r>
-</p>
-</e>
-<e>
-<p>
 <l>gimnástico<s n="adj"/></l>
 <r>ximnástico<s n="adj"/></r>
 </p>
@@ -44601,7 +44463,7 @@
 <e>
 <i>incomprensible<s n="adj"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>currículum<s n="n"/></l>
 <r>currículo<s n="n"/></r>
@@ -44625,7 +44487,7 @@
 <e>
 <i>inca<s n="adj"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>desmadre<s n="n"/></l>
 <r>desenfreo<s n="n"/></r>
@@ -45428,12 +45290,6 @@
 </e>
 <e>
 <p>
-<l>aplazar<s n="vblex"/></l>
-<r>aprazar<s n="vblex"/></r>
-</p>
-</e>
-<e>
-<p>
 <l>encadenar<s n="vblex"/></l>
 <r>encadear<s n="vblex"/></r>
 </p>
@@ -45666,7 +45522,7 @@
 <e>
 <i>deportivamente<s n="adv"/></i>
 </e>
-<e>
+<e r="LR">
 <i>descendente<s n="adj"/></i>
 </e>
 <e>
@@ -47946,7 +47802,7 @@
 <r>estrondo<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>extrarradio<s n="n"/></l>
 <r>arrabalde<s n="n"/></r>
@@ -48420,7 +48276,7 @@
 <r>rozar<s n="vblex"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>derrochar<s n="vblex"/></l>
 <r>malgastar<s n="vblex"/></r>
@@ -54291,7 +54147,7 @@
 <r>abdución<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>abadí<s n="adj"/></l>
 <r>abacial<s n="adj"/></r>
@@ -54900,7 +54756,7 @@
 <e>
 <i>colofón<s n="n"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>buzo<s n="n"/></l>
 <r>mergullador<s n="n"/></r>
@@ -55044,7 +54900,7 @@
 <e r="RL">
 <p>
 <l>albañilería<s n="n"/></l>
-<r>albanelaría<s n="n"/></r>
+<r>albanelería<s n="n"/></r>
 </p>
 </e>
 <e>
@@ -56574,7 +56430,7 @@
 <r>alcume<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>basurero<s n="n"/></l>
 <r>vertedoiro<s n="n"/></r>
@@ -58290,7 +58146,7 @@
 <r>bandeirola<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>alubia<s n="n"/></l>
 <r>faba<s n="n"/></r>
@@ -59640,7 +59496,7 @@
 <r>ballón<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>chapuzón<s n="n"/></l>
 <r>mergullo<s n="n"/></r>
@@ -62649,7 +62505,7 @@
 <r>pescada<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>merma<s n="n"/></l>
 <r>diminución<s n="n"/></r>
@@ -63770,9 +63626,6 @@
 </e>
 <e>
 <i>quinteto<s n="n"/></i>
-</e>
-<e>
-<i>Quiroga<s n="np"/></i>
 </e>
 <e>
 <i>quirófano<s n="n"/></i>
@@ -65937,7 +65790,7 @@
 <e>
 <i>acaramelar<s n="vblex"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>acarretar<s n="vblex"/></l>
 <r>carrexar<s n="vblex"/></r>
@@ -66138,7 +65991,7 @@
 <r>acolar<s n="vblex"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>acollarar<s n="vblex"/></l>
 <r>aparellar<s n="vblex"/></r>
@@ -66246,7 +66099,7 @@
 <r>cribar<s n="vblex"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>acriminar<s n="vblex"/></l>
 <r>incriminar<s n="vblex"/></r>
@@ -66288,7 +66141,7 @@
 <r>anicar<s n="vblex"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>acuitar<s n="vblex"/></l>
 <r>aflixir<s n="vblex"/></r>
@@ -66309,7 +66162,7 @@
 <e>
 <i>acuñar<s n="vblex"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>acurrucar<s n="vblex"/></l>
 <r>aniñar<s n="vblex"/></r>
@@ -66345,10 +66198,10 @@
 <r>deber<s n="vblex"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>adiar<s n="vblex"/></l>
-<r>aprazar<s n="vblex"/></r>
+<r>fixar<s n="vblex"/></r>
 </p>
 </e>
 <e r="LR">
@@ -67326,7 +67179,7 @@
 <r>pallaso<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>percance<s n="n"/></l>
 <r>contratempo<s n="n"/></r>
@@ -67704,13 +67557,13 @@
 <e r="RL">
 <p>
 <l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l>
-<r>parálise<s n="n"/><s n="m"/><s n="sg"/></r>
+<r>parálise<s n="n"/><s n="f"/><s n="sg"/></r>
 </p>
 </e>
 <e r="RL">
 <p>
 <l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l>
-<r>parálise<s n="n"/><s n="m"/><s n="pl"/></r>
+<r>parálise<s n="n"/><s n="f"/><s n="pl"/></r>
 </p>
 </e>
 <e r="LR">
@@ -68724,7 +68577,7 @@
 <r>lexionario<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>lugareño<s n="n"/></l>
 <r>aldeán<s n="n"/></r>
@@ -68808,7 +68661,7 @@
 <e>
 <i>lucrativo<s n="adj"/></i>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>lugareño<s n="adj"/></l>
 <r>aldeán<s n="adj"/></r>
@@ -69232,12 +69085,6 @@
 <p>
 <l>párking<s n="n"/></l>
 <r>aparcadoiro<s n="n"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>noreste<s n="n"/></l>
-<r>nordeste<s n="n"/></r>
 </p>
 </e>
 <e>
@@ -70422,7 +70269,7 @@
 <r>pandereita<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>panza<s n="n"/><s n="f"/></l>
 <r>bandullo<s n="n"/><s n="m"/></r>
@@ -72517,6 +72364,12 @@
 <p>
 <l>parroquiano<s n="n"/></l>
 <r>fregués<s n="n"/></r>
+</p>
+</e>
+<e>
+<p>
+<l>parroquiano<s n="adj"/></l>
+<r>fregués<s n="adj"/></r>
 </p>
 </e>
 <e>
@@ -77658,7 +77511,7 @@
 <r>aguilloar<s n="vblex"/></r>
 </p>
 </e>
-<e r="LR">
+<e>
 <p>
 <l>aguijonear<s n="vblex"/></l>
 <r>aguilloar<s n="vblex"/></r>
@@ -91577,7 +91430,7 @@
 <e>
 <i>Arteaga<s n="np"/></i>
 </e>
-<e r="LR">
+<e>
 <i>Artur<s n="np"/></i>
 </e>
 <e>
@@ -94118,7 +93971,7 @@
 <r>cisxordano<s n="adj"/></r>
 </p>
 </e>
-<e r="LR">
+<e>
 <i>cisma<s n="n"/></i>
 </e>
 <e>
@@ -97814,7 +97667,7 @@
 <r>sementeiro<s n="n"/></r>
 </p>
 </e>
-<e r="LR">
+<e r="RL">
 <p>
 <l>semillero<s n="n"/></l>
 <r>alcouve<s n="n"/></r>
@@ -99536,7 +99389,7 @@
 <e>
 <i>antirretroviral<s n="adj"/></i>
 </e>
-<e r="LR">
+<e>
 <p>
 <l>apalear<s n="vblex"/></l>
 <r>mallar<s n="vblex"/></r>
@@ -107130,7 +106983,7 @@
 <r>desfalecemento<s n="n"/></r>
 </p>
 </e>
-<e>
+<e r="LR">
 <p>
 <l>desvanecimiento<s n="n"/></l>
 <r>desmaio<s n="n"/></r>
@@ -112660,6 +112513,12 @@
 <p>
 <l>arrebatador<s n="adj"/><s n="GD"/></l>
 <r>engaiolante<s n="adj"/><s n="mf"/></r>
+</p>
+</e>
+<e r="LR">
+<p>
+<l>sabandija<s n="n"/><s n="f"/></l>
+<r>bicho<s n="n"/><s n="m"/></r>
 </p>
 </e>
 
