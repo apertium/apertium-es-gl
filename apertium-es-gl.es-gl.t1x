@@ -14,7 +14,7 @@
 			<cat-item tags="ij"/>
 			<cat-item tags="prn.*"/>
 			<cat-item tags="cnjcoo"/>
-			<cat-item tags="pr."/>
+			<cat-item tags="pr"/>
 			<cat-item tags="cnjadv"/>
 		</def-cat>
 		<def-cat n="longa_proclise">
@@ -22,20 +22,21 @@
 			<cat-item tags="adv.itg"/>
 			<cat-item tags="cnjsub"/>
 			<cat-item tags="rel.*"/>
+			<cat-item tags="cnjadv"/>
 		</def-cat>
 		<def-cat n="intermed">
 			<cat-item tags="adj.*"/>
 			<cat-item tags="det.*"/>
-			<cat-item tags="predet.*"/>
-			<cat-item tags="detnt"/>
+<!--			<cat-item tags="predet.*"/>-->
+<!--			<cat-item tags="detnt"/>-->
 			<cat-item tags="n.*"/>
 			<cat-item tags="np.ant.*"/>
 			<cat-item tags="np.loc"/>
 			<cat-item tags="adv"/>
-			<cat-item tags="preadv"/>
+<!--			<cat-item tags="preadv"/>-->
 			<cat-item tags="pr"/>
-			<cat-item tags="num.*"/>
-			<cat-item tags="prn.tn.*"/>
+<!--			<cat-item tags="num.*"/>-->
+<!--			<cat-item tags="prn.tn.*"/>-->
 		</def-cat>
 		<def-cat n="nom">
 			<cat-item tags="n.*"/>
@@ -73,6 +74,9 @@
 		<def-cat n="prep">
 			<cat-item tags="pr"/>
 		</def-cat>
+		<def-cat n="prepa">
+			<cat-item lemma="a" tags="pr"/>
+		</def-cat>
 		<def-cat n="cuyo">
 			<cat-item tags="rel.aa.*"/>
 		</def-cat>
@@ -103,7 +107,7 @@
 			<cat-item lemma="acostumbrar" tags="vblex.*"/>
 		</def-cat>
 		<def-cat n="haber">
-			<cat-item tags="vbhaver.*"/>
+			<cat-item lemma="haber" tags="vbhaver.*"/>
 		</def-cat>
 		<def-cat n="inf">
 			<cat-item tags="vblex.inf"/>
@@ -320,6 +324,7 @@
 		<def-var n="concTercero"/>
 		<def-var n="interrogativa"/>
 		<def-var n="exclamativa"/>
+		<def-var n="proclisevar"/>
 	</section-def-vars>
 	<section-def-lists>
 		<def-list n="n_prnpromf">
@@ -517,6 +522,7 @@
 		</def-list>
 	</section-def-lists>
 	<section-def-macros>
+
 		<def-macro n="f_bcond" npar="2">
 			<!--Per mirar si el blanc conté o no format -->
 			<choose>
@@ -535,6 +541,7 @@
 				</when>
 			</choose>
 		</def-macro>
+
 		<def-macro n="f_concord1" npar="1">
 			<choose>
 				<!--To determine value of variables of gender and
@@ -2506,10 +2513,11 @@
 				</call-macro>
 				<out>
 					<lu>
-						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="lemh"/>
 						<clip pos="1" side="tl" part="a_nom"/>
 						<clip pos="1" side="tl" part="gen"/>
 						<clip pos="1" side="tl" part="nbr"/>
+						<clip pos="1" side="tl" part="lemq"/>
 					</lu>
 				</out>
 			</action>
@@ -2525,10 +2533,11 @@
 				</call-macro>
 				<out>
 					<lu>
-						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="lemh"/>
 						<clip pos="1" side="tl" part="a_adj"/>
 						<clip pos="1" side="tl" part="gen"/>
 						<clip pos="1" side="tl" part="nbr"/>
+						<clip pos="1" side="tl" part="lemq"/>
 					</lu>
 				</out>
 			</action>
@@ -2621,10 +2630,11 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_nom"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -2681,10 +2691,11 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_nom"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</otherwise>
@@ -2704,17 +2715,19 @@
 				</call-macro>
 				<out>
 					<lu>
-						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="lemh"/>
 						<clip pos="1" side="tl" part="a_nom"/>
 						<clip pos="1" side="tl" part="gen"/>
 						<clip pos="1" side="tl" part="nbr"/>
+						<clip pos="1" side="tl" part="lemq"/>
 					</lu>
 					<b pos="1"/>
 					<lu>
-						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="lemh"/>
 						<clip pos="2" side="tl" part="a_adjec"/>
 						<clip pos="2" side="tl" part="gen"/>
 						<clip pos="2" side="tl" part="nbr"/>
+						<clip pos="2" side="tl" part="lemq"/>
 					</lu>
 				</out>
 			</action>
@@ -2732,17 +2745,19 @@
 				</call-macro>
 				<out>
 					<lu>
-						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="lemh"/>
 						<clip pos="1" side="tl" part="a_adj"/>
 						<clip pos="1" side="tl" part="gen"/>
 						<clip pos="1" side="tl" part="nbr"/>
+						<clip pos="1" side="tl" part="lemq"/>
 					</lu>
 					<b pos="1"/>
 					<lu>
-						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="lemh"/>
 						<clip pos="2" side="tl" part="a_nom"/>
 						<clip pos="2" side="tl" part="gen"/>
 						<clip pos="2" side="tl" part="nbr"/>
+						<clip pos="2" side="tl" part="lemq"/>
 					</lu>
 				</out>
 			</action>
@@ -2774,17 +2789,19 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_nom"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_adjec"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -2801,17 +2818,20 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_nom"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_adjec"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -2831,17 +2851,19 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_nom"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_adjec"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -2855,17 +2877,19 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_nom"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_adjec"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</otherwise>
@@ -2899,17 +2923,19 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_adjec"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -2926,17 +2952,19 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_adjec"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -2956,17 +2984,19 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_adjec"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -2980,17 +3010,19 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_adjec"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</otherwise>
@@ -3031,10 +3063,11 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3058,10 +3091,11 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3088,10 +3122,11 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3112,10 +3147,11 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</otherwise>
@@ -3158,17 +3194,19 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 							<b pos="3"/>
 							<lu>
-								<clip pos="4" side="tl" part="lem"/>
+								<clip pos="4" side="tl" part="lemh"/>
 								<clip pos="4" side="tl" part="a_adjec"/>
 								<clip pos="4" side="tl" part="gen"/>
 								<clip pos="4" side="tl" part="nbr"/>
+								<clip pos="4" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3192,17 +3230,19 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 							<b pos="3"/>
 							<lu>
-								<clip pos="4" side="tl" part="lem"/>
+								<clip pos="4" side="tl" part="lemh"/>
 								<clip pos="4" side="tl" part="a_adjec"/>
 								<clip pos="4" side="tl" part="gen"/>
 								<clip pos="4" side="tl" part="nbr"/>
+								<clip pos="4" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3229,17 +3269,19 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 							<b pos="3"/>
 							<lu>
-								<clip pos="4" side="tl" part="lem"/>
+								<clip pos="4" side="tl" part="lemh"/>
 								<clip pos="4" side="tl" part="a_adjec"/>
 								<clip pos="4" side="tl" part="gen"/>
 								<clip pos="4" side="tl" part="nbr"/>
+								<clip pos="4" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3260,17 +3302,19 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 							<b pos="3"/>
 							<lu>
-								<clip pos="4" side="tl" part="lem"/>
+								<clip pos="4" side="tl" part="lemh"/>
 								<clip pos="4" side="tl" part="a_adjec"/>
 								<clip pos="4" side="tl" part="gen"/>
 								<clip pos="4" side="tl" part="nbr"/>
+								<clip pos="4" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</otherwise>
@@ -3290,17 +3334,19 @@
 				</call-macro>
 				<out>
 					<lu>
-						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="lemh"/>
 						<clip pos="1" side="tl" part="a_det"/>
 						<clip pos="1" side="tl" part="gen"/>
 						<clip pos="1" side="tl" part="nbr"/>
+						<clip pos="1" side="tl" part="lemq"/>
 					</lu>
 					<b pos="1"/>
 					<lu>
-						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="lemh"/>
 						<clip pos="2" side="tl" part="a_adjec"/>
 						<clip pos="2" side="tl" part="gen"/>
 						<clip pos="2" side="tl" part="nbr"/>
+						<clip pos="2" side="tl" part="lemq"/>
 					</lu>
 				</out>
 			</action>
@@ -3320,24 +3366,27 @@
 				</call-macro>
 				<out>
 					<lu>
-						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="lemh"/>
 						<clip pos="1" side="tl" part="a_adj"/>
 						<clip pos="1" side="tl" part="gen"/>
 						<clip pos="1" side="tl" part="nbr"/>
+						<clip pos="1" side="tl" part="lemq"/>
 					</lu>
 					<b pos="1"/>
 					<lu>
-						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="lemh"/>
 						<clip pos="2" side="tl" part="a_nom"/>
 						<clip pos="2" side="tl" part="gen"/>
 						<clip pos="2" side="tl" part="nbr"/>
+						<clip pos="2" side="tl" part="lemq"/>
 					</lu>
 					<b pos="2"/>
 					<lu>
-						<clip pos="3" side="tl" part="lem"/>
+						<clip pos="3" side="tl" part="lemh"/>
 						<clip pos="3" side="tl" part="a_adjec"/>
 						<clip pos="3" side="tl" part="gen"/>
 						<clip pos="3" side="tl" part="nbr"/>
+						<clip pos="3" side="tl" part="lemq"/>
 					</lu>
 				</out>
 			</action>
@@ -3372,17 +3421,19 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_nom"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_adjec"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 							<b pos="3"/>
 							<lu>
@@ -3390,10 +3441,11 @@
 							</lu>
 							<b pos="4"/>
 							<lu>
-								<clip pos="5" side="tl" part="lem"/>
+								<clip pos="5" side="tl" part="lemh"/>
 								<clip pos="5" side="tl" part="a_adjec"/>
 								<clip pos="5" side="tl" part="gen"/>
 								<clip pos="5" side="tl" part="nbr"/>
+								<clip pos="5" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3410,17 +3462,19 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_nom"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_adjec"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 							<b pos="3"/>
 							<lu>
@@ -3428,10 +3482,11 @@
 							</lu>
 							<b pos="4"/>
 							<lu>
-								<clip pos="5" side="tl" part="lem"/>
+								<clip pos="5" side="tl" part="lemh"/>
 								<clip pos="5" side="tl" part="a_adjec"/>
 								<clip pos="5" side="tl" part="gen"/>
 								<clip pos="5" side="tl" part="nbr"/>
+								<clip pos="5" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3448,17 +3503,19 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_nom"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_adjec"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 							<b pos="3"/>
 							<lu>
@@ -3466,10 +3523,11 @@
 							</lu>
 							<b pos="4"/>
 							<lu>
-								<clip pos="5" side="tl" part="lem"/>
+								<clip pos="5" side="tl" part="lemh"/>
 								<clip pos="5" side="tl" part="a_adjec"/>
 								<clip pos="5" side="tl" part="gen"/>
 								<clip pos="5" side="tl" part="nbr"/>
+								<clip pos="5" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3480,17 +3538,19 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_nom"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_adjec"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 							<b pos="3"/>
 							<lu>
@@ -3498,10 +3558,11 @@
 							</lu>
 							<b pos="4"/>
 							<lu>
-								<clip pos="5" side="tl" part="lem"/>
+								<clip pos="5" side="tl" part="lemh"/>
 								<clip pos="5" side="tl" part="a_adjec"/>
 								<clip pos="5" side="tl" part="gen"/>
 								<clip pos="5" side="tl" part="nbr"/>
+								<clip pos="5" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</otherwise>
@@ -3532,17 +3593,19 @@
 						</test>
 						<out>
 							<lu>
-								<clip pos="1" side="tl" part="lem"/>
+								<clip pos="1" side="tl" part="lemh"/>
 								<clip pos="1" side="tl" part="a_nom"/>
 								<clip pos="1" side="tl" part="gen"/>
 								<clip pos="1" side="tl" part="nbr"/>
+								<clip pos="1" side="tl" part="lemq"/>
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_adjec"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
@@ -3550,10 +3613,11 @@
 							</lu>
 							<b pos="3"/>
 							<lu>
-								<clip pos="4" side="tl" part="lem"/>
+								<clip pos="4" side="tl" part="lemh"/>
 								<clip pos="4" side="tl" part="a_adjec"/>
 								<clip pos="4" side="tl" part="gen"/>
 								<clip pos="4" side="tl" part="nbr"/>
+								<clip pos="4" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3566,17 +3630,19 @@
 						</test>
 						<out>
 							<lu>
-								<clip pos="1" side="tl" part="lem"/>
+								<clip pos="1" side="tl" part="lemh"/>
 								<clip pos="1" side="tl" part="a_nom"/>
 								<clip pos="1" side="tl" part="gen"/>
 								<clip pos="1" side="tl" part="nbr"/>
+								<clip pos="1" side="tl" part="lemq"/>
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_adjec"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
@@ -3584,27 +3650,30 @@
 							</lu>
 							<b pos="3"/>
 							<lu>
-								<clip pos="4" side="tl" part="lem"/>
+								<clip pos="4" side="tl" part="lemh"/>
 								<clip pos="4" side="tl" part="a_adjec"/>
 								<clip pos="4" side="tl" part="gen"/>
 								<clip pos="4" side="tl" part="nbr"/>
+								<clip pos="4" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
 					<otherwise>
 						<out>
 							<lu>
-								<clip pos="1" side="tl" part="lem"/>
+								<clip pos="1" side="tl" part="lemh"/>
 								<clip pos="1" side="tl" part="a_nom"/>
 								<clip pos="1" side="tl" part="gen"/>
 								<clip pos="1" side="tl" part="nbr"/>
+								<clip pos="1" side="tl" part="lemq"/>
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_adjec"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
@@ -3612,10 +3681,11 @@
 							</lu>
 							<b pos="3"/>
 							<lu>
-								<clip pos="4" side="tl" part="lem"/>
+								<clip pos="4" side="tl" part="lemh"/>
 								<clip pos="4" side="tl" part="a_adjec"/>
 								<clip pos="4" side="tl" part="gen"/>
 								<clip pos="4" side="tl" part="nbr"/>
+								<clip pos="4" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</otherwise>
@@ -3651,24 +3721,27 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_adjec"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 							<b pos="3"/>
 							<lu>
-								<clip pos="4" side="tl" part="lem"/>
+								<clip pos="4" side="tl" part="lemh"/>
 								<clip pos="4" side="tl" part="a_adjec"/>
 								<clip pos="4" side="tl" part="gen"/>
 								<clip pos="4" side="tl" part="nbr"/>
+								<clip pos="4" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3685,24 +3758,27 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_adjec"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 							<b pos="3"/>
 							<lu>
-								<clip pos="4" side="tl" part="lem"/>
+								<clip pos="4" side="tl" part="lemh"/>
 								<clip pos="4" side="tl" part="a_adjec"/>
 								<clip pos="4" side="tl" part="gen"/>
 								<clip pos="4" side="tl" part="nbr"/>
+								<clip pos="4" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3722,24 +3798,27 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_adjec"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 							<b pos="3"/>
 							<lu>
-								<clip pos="4" side="tl" part="lem"/>
+								<clip pos="4" side="tl" part="lemh"/>
 								<clip pos="4" side="tl" part="a_adjec"/>
 								<clip pos="4" side="tl" part="gen"/>
 								<clip pos="4" side="tl" part="nbr"/>
+								<clip pos="4" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3753,24 +3832,27 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_adjec"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 							<b pos="3"/>
 							<lu>
-								<clip pos="4" side="tl" part="lem"/>
+								<clip pos="4" side="tl" part="lemh"/>
 								<clip pos="4" side="tl" part="a_adjec"/>
 								<clip pos="4" side="tl" part="gen"/>
 								<clip pos="4" side="tl" part="nbr"/>
+								<clip pos="4" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</otherwise>
@@ -3791,10 +3873,11 @@
 				</call-macro>
 				<out>
 					<lu>
-						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="lemh"/>
 						<clip pos="1" side="tl" part="a_nom"/>
 						<clip pos="1" side="tl" part="gen"/>
 						<clip pos="1" side="tl" part="nbr"/>
+						<clip pos="1" side="tl" part="lemq"/>
 					</lu>
 					<b pos="1"/>
 					<lu>
@@ -3803,10 +3886,11 @@
 					</lu>
 					<b pos="2"/>
 					<lu>
-						<clip pos="3" side="tl" part="lem"/>
+						<clip pos="3" side="tl" part="lemh"/>
 						<clip pos="3" side="tl" part="a_adjec"/>
 						<clip pos="3" side="tl" part="gen"/>
 						<clip pos="3" side="tl" part="nbr"/>
+						<clip pos="3" side="tl" part="lemq"/>
 					</lu>
 				</out>
 			</action>
@@ -3839,10 +3923,11 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_nom"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
@@ -3851,10 +3936,11 @@
 							</lu>
 							<b pos="3"/>
 							<lu>
-								<clip pos="4" side="tl" part="lem"/>
+								<clip pos="4" side="tl" part="lemh"/>
 								<clip pos="4" side="tl" part="a_adjec"/>
 								<clip pos="4" side="tl" part="gen"/>
 								<clip pos="4" side="tl" part="nbr"/>
+								<clip pos="4" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3871,10 +3957,11 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_nom"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
@@ -3883,10 +3970,11 @@
 							</lu>
 							<b pos="3"/>
 							<lu>
-								<clip pos="4" side="tl" part="lem"/>
+								<clip pos="4" side="tl" part="lemh"/>
 								<clip pos="4" side="tl" part="a_adjec"/>
 								<clip pos="4" side="tl" part="gen"/>
 								<clip pos="4" side="tl" part="nbr"/>
+								<clip pos="4" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3906,10 +3994,11 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_nom"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
@@ -3918,10 +4007,11 @@
 							</lu>
 							<b pos="3"/>
 							<lu>
-								<clip pos="4" side="tl" part="lem"/>
+								<clip pos="4" side="tl" part="lemh"/>
 								<clip pos="4" side="tl" part="a_adjec"/>
 								<clip pos="4" side="tl" part="gen"/>
 								<clip pos="4" side="tl" part="nbr"/>
+								<clip pos="4" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -3935,10 +4025,11 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<clip pos="2" side="tl" part="lem"/>
+								<clip pos="2" side="tl" part="lemh"/>
 								<clip pos="2" side="tl" part="a_nom"/>
 								<clip pos="2" side="tl" part="gen"/>
 								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 							<b pos="2"/>
 							<lu>
@@ -3947,10 +4038,11 @@
 							</lu>
 							<b pos="3"/>
 							<lu>
-								<clip pos="4" side="tl" part="lem"/>
+								<clip pos="4" side="tl" part="lemh"/>
 								<clip pos="4" side="tl" part="a_adjec"/>
 								<clip pos="4" side="tl" part="gen"/>
 								<clip pos="4" side="tl" part="nbr"/>
+								<clip pos="4" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</otherwise>
@@ -3988,10 +4080,11 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -4013,10 +4106,11 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -4041,10 +4135,11 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -4063,10 +4158,11 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</otherwise>
@@ -4093,10 +4189,11 @@
 					</lu>
 					<b pos="1"/>
 					<lu>
-						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="lemh"/>
 						<clip pos="2" side="tl" part="a_nom"/>
 						<clip pos="2" side="tl" part="gen"/>
 						<clip pos="2" side="tl" part="nbr"/>
+						<clip pos="2" side="tl" part="lemq"/>
 					</lu>
 				</out>
 			</action>
@@ -4121,10 +4218,11 @@
 					</lu>
 					<b pos="1"/>
 					<lu>
-						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="lemh"/>
 						<clip pos="2" side="tl" part="a_adjec"/>
 						<clip pos="2" side="tl" part="gen"/>
 						<clip pos="2" side="tl" part="nbr"/>
+						<clip pos="2" side="tl" part="lemq"/>
 					</lu>
 				</out>
 			</action>
@@ -4151,17 +4249,19 @@
 					</lu>
 					<b pos="1"/>
 					<lu>
-						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="lemh"/>
 						<clip pos="2" side="tl" part="a_nom"/>
 						<clip pos="2" side="tl" part="gen"/>
 						<clip pos="2" side="tl" part="nbr"/>
+						<clip pos="2" side="tl" part="lemq"/>
 					</lu>
 					<b pos="2"/>
 					<lu>
-						<clip pos="3" side="tl" part="lem"/>
+						<clip pos="3" side="tl" part="lemh"/>
 						<clip pos="3" side="tl" part="a_adjec"/>
 						<clip pos="3" side="tl" part="gen"/>
 						<clip pos="3" side="tl" part="nbr"/>
+						<clip pos="3" side="tl" part="lemq"/>
 					</lu>
 				</out>
 			</action>
@@ -4188,17 +4288,19 @@
 					</lu>
 					<b pos="1"/>
 					<lu>
-						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="lemh"/>
 						<clip pos="2" side="tl" part="a_adjec"/>
 						<clip pos="2" side="tl" part="gen"/>
 						<clip pos="2" side="tl" part="nbr"/>
+						<clip pos="2" side="tl" part="lemq"/>
 					</lu>
 					<b pos="2"/>
 					<lu>
-						<clip pos="3" side="tl" part="lem"/>
+						<clip pos="3" side="tl" part="lemh"/>
 						<clip pos="3" side="tl" part="a_nom"/>
 						<clip pos="3" side="tl" part="gen"/>
 						<clip pos="3" side="tl" part="nbr"/>
+						<clip pos="3" side="tl" part="lemq"/>
 					</lu>
 				</out>
 			</action>
@@ -4237,10 +4339,11 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -4264,10 +4367,11 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -4294,10 +4398,11 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</when>
@@ -4318,10 +4423,11 @@
 							</lu>
 							<b pos="2"/>
 							<lu>
-								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_nom"/>
 								<clip pos="3" side="tl" part="gen"/>
 								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="3" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</otherwise>
@@ -4358,17 +4464,19 @@
 						</lu>
 						<b pos="1"/>
 						<lu>
-							<clip pos="2" side="tl" part="lem"/>
+							<clip pos="2" side="tl" part="lemh"/>
 							<clip pos="2" side="tl" part="a_nom"/>
 							<clip pos="2" side="tl" part="gen"/>
 							<clip pos="2" side="tl" part="nbr"/>
+							<clip pos="2" side="tl" part="lemq"/>
 						</lu>
 						<b pos="2"/>
 						<lu>
-							<clip pos="3" side="tl" part="lem"/>
+							<clip pos="3" side="tl" part="lemh"/>
 							<clip pos="3" side="tl" part="a_adjec"/>
 							<clip pos="3" side="tl" part="gen"/>
 							<clip pos="3" side="tl" part="nbr"/>
+							<clip pos="3" side="tl" part="lemq"/>
 						</lu>
 						<b pos="3"/>
 						<lu>
@@ -4382,10 +4490,11 @@
 						</lu>
 						<b pos="4"/>
 						<lu>
-							<clip pos="5" side="tl" part="lem"/>
+							<clip pos="5" side="tl" part="lemh"/>
 							<clip pos="5" side="tl" part="a_adjec"/>
 							<clip pos="5" side="tl" part="gen"/>
 							<clip pos="5" side="tl" part="nbr"/>
+							<clip pos="5" side="tl" part="lemq"/>
 						</lu>
 					</out>
 				</when>
@@ -4402,17 +4511,19 @@
 						</lu>
 						<b pos="1"/>
 						<lu>
-							<clip pos="2" side="tl" part="lem"/>
+							<clip pos="2" side="tl" part="lemh"/>
 							<clip pos="2" side="tl" part="a_nom"/>
 							<clip pos="2" side="tl" part="gen"/>
 							<clip pos="2" side="tl" part="nbr"/>
+							<clip pos="2" side="tl" part="lemq"/>
 						</lu>
 						<b pos="2"/>
 						<lu>
-							<clip pos="3" side="tl" part="lem"/>
+							<clip pos="3" side="tl" part="lemh"/>
 							<clip pos="3" side="tl" part="a_adjec"/>
 							<clip pos="3" side="tl" part="gen"/>
 							<clip pos="3" side="tl" part="nbr"/>
+							<clip pos="3" side="tl" part="lemq"/>
 						</lu>
 						<b pos="3"/>
 						<lu>
@@ -4426,10 +4537,11 @@
 						</lu>
 						<b pos="4"/>
 						<lu>
-							<clip pos="5" side="tl" part="lem"/>
+							<clip pos="5" side="tl" part="lemh"/>
 							<clip pos="5" side="tl" part="a_adjec"/>
 							<clip pos="5" side="tl" part="gen"/>
 							<clip pos="5" side="tl" part="nbr"/>
+							<clip pos="5" side="tl" part="lemq"/>
 						</lu>
 					</out>
 				</when>
@@ -4446,17 +4558,19 @@
 						</lu>
 						<b pos="1"/>
 						<lu>
-							<clip pos="2" side="tl" part="lem"/>
+							<clip pos="2" side="tl" part="lemh"/>
 							<clip pos="2" side="tl" part="a_nom"/>
 							<clip pos="2" side="tl" part="gen"/>
 							<clip pos="2" side="tl" part="nbr"/>
+							<clip pos="2" side="tl" part="lemq"/>
 						</lu>
 						<b pos="2"/>
 						<lu>
-							<clip pos="3" side="tl" part="lem"/>
+							<clip pos="3" side="tl" part="lemh"/>
 							<clip pos="3" side="tl" part="a_adjec"/>
 							<clip pos="3" side="tl" part="gen"/>
 							<clip pos="3" side="tl" part="nbr"/>
+							<clip pos="3" side="tl" part="lemq"/>
 						</lu>
 						<b pos="3"/>
 						<lu>
@@ -4470,10 +4584,11 @@
 						</lu>
 						<b pos="4"/>
 						<lu>
-							<clip pos="5" side="tl" part="lem"/>
+							<clip pos="5" side="tl" part="lemh"/>
 							<clip pos="5" side="tl" part="a_adjec"/>
 							<clip pos="5" side="tl" part="gen"/>
 							<clip pos="5" side="tl" part="nbr"/>
+							<clip pos="5" side="tl" part="lemq"/>
 						</lu>
 					</out>
 				</when>
@@ -4484,17 +4599,19 @@
 						</lu>
 						<b pos="1"/>
 						<lu>
-							<clip pos="2" side="tl" part="lem"/>
+							<clip pos="2" side="tl" part="lemh"/>
 							<clip pos="2" side="tl" part="a_nom"/>
 							<clip pos="2" side="tl" part="gen"/>
 							<clip pos="2" side="tl" part="nbr"/>
+							<clip pos="2" side="tl" part="lemq"/>
 						</lu>
 						<b pos="2"/>
 						<lu>
-							<clip pos="3" side="tl" part="lem"/>
+							<clip pos="3" side="tl" part="lemh"/>
 							<clip pos="3" side="tl" part="a_adjec"/>
 							<clip pos="3" side="tl" part="gen"/>
 							<clip pos="3" side="tl" part="nbr"/>
+							<clip pos="3" side="tl" part="lemq"/>
 						</lu>
 						<b pos="3"/>
 						<lu>
@@ -4508,10 +4625,11 @@
 						</lu>
 						<b pos="4"/>
 						<lu>
-							<clip pos="5" side="tl" part="lem"/>
+							<clip pos="5" side="tl" part="lemh"/>
 							<clip pos="5" side="tl" part="a_adjec"/>
 							<clip pos="5" side="tl" part="gen"/>
 							<clip pos="5" side="tl" part="nbr"/>
+							<clip pos="5" side="tl" part="lemq"/>
 						</lu>
 					</out>
 				</otherwise>
@@ -4523,7 +4641,7 @@
 			<pattern>
 				<pattern-item n="prnpro"/>
 				<pattern-item n="verbosenprep"/>
-				<pattern-item n="prep"/>
+				<pattern-item n="prepa"/>
 				<pattern-item n="def"/>
 				<pattern-item n="nommfsgpl"/>
 			</pattern>
@@ -4570,9 +4688,13 @@
 								<clip pos="4" side="tl" part="whole"/>
 							</lu>
 							<b/>
-							<lu>
-								<clip pos="5" side="tl" part="whole"/>
-							</lu>
+						<lu>
+							<clip pos="5" side="tl" part="lemh"/>
+							<clip pos="5" side="tl" part="a_nom"/>
+							<clip pos="5" side="tl" part="gen"/>
+							<clip pos="5" side="tl" part="nbr"/>
+							<clip pos="5" side="tl" part="lemq"/>
+						</lu>
 						</out>
 					</when>
 					<when>
@@ -4610,9 +4732,13 @@
 								<clip pos="4" side="tl" part="whole"/>
 							</lu>
 							<b/>
-							<lu>
-								<clip pos="5" side="tl" part="whole"/>
-							</lu>
+         						<lu>
+		        					<clip pos="5" side="tl" part="lemh"/>
+			        				<clip pos="5" side="tl" part="a_nom"/>
+				        			<clip pos="5" side="tl" part="gen"/>
+					        		<clip pos="5" side="tl" part="nbr"/>
+						        	<clip pos="5" side="tl" part="lemq"/>
+	        					</lu>
 						</out>
 					</when>
 					<otherwise>
@@ -4644,9 +4770,13 @@
 								<clip pos="4" side="tl" part="whole"/>
 							</lu>
 							<b/>
-							<lu>
-								<clip pos="5" side="tl" part="whole"/>
-							</lu>
+         						<lu>
+		        					<clip pos="5" side="tl" part="lemh"/>
+			        				<clip pos="5" side="tl" part="a_nom"/>
+				        			<clip pos="5" side="tl" part="gen"/>
+					        		<clip pos="5" side="tl" part="nbr"/>
+						        	<clip pos="5" side="tl" part="lemq"/>
+	        					</lu>
 						</out>
 					</otherwise>
 				</choose>
@@ -4656,7 +4786,7 @@
 			<!--acusa os políticos > acusa a los políticos-->
 			<pattern>
 				<pattern-item n="verbosenprep"/>
-				<pattern-item n="prep"/>
+				<pattern-item n="prepa"/>
 				<pattern-item n="def"/>
 				<pattern-item n="nommfsgpl"/>
 			</pattern>
@@ -4680,9 +4810,13 @@
 						<clip pos="3" side="tl" part="whole"/>
 					</lu>
 					<b/>
-					<lu>
-						<clip pos="4" side="tl" part="whole"/>
-					</lu>
+         					<lu>
+		        				<clip pos="4" side="tl" part="lemh"/>
+			        			<clip pos="4" side="tl" part="a_nom"/>
+				        		<clip pos="4" side="tl" part="gen"/>
+					        	<clip pos="4" side="tl" part="nbr"/>
+						       	<clip pos="4" side="tl" part="lemq"/>
+	        				</lu>
 				</out>
 			</action>
 		</rule>
@@ -4821,9 +4955,14 @@
 									<clip pos="2" side="tl" part="nbr"/>
 								</lu>
 								<b/>
-								<lu>
-									<clip pos="3" side="tl" part="whole"/>
-								</lu>
+
+		         					<lu>
+				        				<clip pos="3" side="tl" part="lemh"/>
+			        					<clip pos="3" side="tl" part="a_adjec"/>
+				        				<clip pos="3" side="tl" part="gen"/>
+					        			<clip pos="3" side="tl" part="nbr"/>
+						       			<clip pos="3" side="tl" part="lemq"/>
+	        						</lu>
 								</out>
 				</action>
 		</rule>
@@ -5035,7 +5174,12 @@
 							</lu>
 							<b/>
 							<lu>
-								<clip pos="2" side="tl" part="whole"/>
+						        	<clip pos="2" side="tl" part="lemh"/>
+								<clip pos="2" side="tl" part="a_nom"/>
+								<clip pos="2" side="tl" part="a_adjec"/>
+								<clip pos="2" side="tl" part="gen"/>
+								<clip pos="2" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
 							</lu>
 						</out>
 					</otherwise>
@@ -5328,7 +5472,7 @@
 				</choose>
 			</action>
 		</rule>
-		<!-- REGRA EGV03 v+enc-->
+		<!-- REGRA verb-->
 		<rule>
 			<pattern>
 				<pattern-item n="verb"/>
@@ -5347,6 +5491,7 @@
 				</out>
 			</action>
 		</rule>
+<!-- REGRA EGV03 v+enc-->
 		<rule>
 			<pattern>
 				<pattern-item n="verb"/>
@@ -6868,6 +7013,9 @@
 				</choose>
 			</action>
 		</rule>
+
+
+
 		<rule>
 			<pattern>
 				<pattern-item n="longa_proclise"/>
@@ -7111,7 +7259,7 @@
 							<lu>
 								<clip pos="1" side="tl" part="whole"/>
 							</lu>
-							<b/>
+							<b pos="1"/>
 							<mlu>
 								<lu>
 									<clip pos="4" side="tl" part="lemh"/>
@@ -7842,11 +7990,11 @@
 							<lu>
 								<clip pos="1" side="tl" part="whole"/>
 							</lu>
-							<b/>
+							<b pos="1"/>
 							<lu>
 								<clip pos="2" side="tl" part="whole"/>
 							</lu>
-							<b/>
+							<b pos="2"/>
 							<lu>
 								<clip pos="3" side="tl" part="lemh"/>
 								<clip pos="3" side="tl" part="a_verb"/>
@@ -11099,7 +11247,7 @@
 							<when>
 								<test>
 									<equal>
-										<var n="proclise"/>
+										<var n="proclisevar"/>
 										<lit v="true"/>
 									</equal>
 								</test>
@@ -11182,7 +11330,7 @@
 					<when>
 						<test>
 							<equal>
-								<var n="proclise"/>
+								<var n="proclisevar"/>
 								<lit v="true"/>
 							</equal>
 						</test>

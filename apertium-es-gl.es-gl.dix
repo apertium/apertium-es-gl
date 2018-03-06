@@ -1089,7 +1089,6 @@
     <e><p><l>llamada<s n="n"/></l><r>chamada<s n="n"/></r></p></e>
     <e><p><l>llamamiento<s n="n"/></l><r>chamamento<s n="n"/></r></p></e>
     <e r="RL"><p><l>chispa<s n="n"/></l><r>chamusca<s n="n"/></r></p></e>
-    <e><p><l>suelo<s n="n"/></l><r>chan<s n="n"/></r></p></e>
     <e><p><l>chanza<s n="n"/></l><r>chanza<s n="n"/></r></p></e>
     <e><p><l>escalón<s n="n"/></l><r>chanzo<s n="n"/></r></p></e>
     <e><p><l>sombrero<s n="n"/></l><r>chapeu<s n="n"/></r></p></e>
@@ -28126,5 +28125,114 @@
     <e><p><l>arrebatador<s n="adj"/></l><r>arrebatador<s n="adj"/></r></p></e>
     <e r="RL"><p><l>arrebatador<s n="adj"/><s n="GD"/></l><r>engaiolante<s n="adj"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>sabandija<s n="n"/><s n="f"/></l><r>bicho<s n="n"/><s n="m"/></r></p></e>
+
+<e><p><l>nº<s n="n"/></l><r>núm.<s n="n"/></r></p></e>
+<e><p><l>fdo.<s n="adj"/></l><r>asdo.<s n="adj"/></r></p></e>
+<e><p><l>V.º<b/>B.º<s n="n"/></l><r>V.<b/>e<b/>pr.<s n="n"/></r></p></e>
+<e><p><l>Ud.<s n="n"/></l><r>Vde.<s n="n"/></r></p></e>
+<e><p><l>vigesimoprimero<s n="adj"/></l><r>vixesimo<b/>primeiro<s n="adj"/></r></p></e>
+<e><p><l>vigesimosegundo<s n="adj"/></l><r>vixesimo<b/>segundo<s n="adj"/></r></p></e>
+<e><p><l>vigesimotercero<s n="adj"/></l><r>vixesimo<b/>terceiro<s n="adj"/></r></p></e>
+<e><p><l>vigesimocuarto<s n="adj"/></l><r>vixesimo<b/>cuarto<s n="adj"/></r></p></e>
+<e><p><l>vigesimoquinto<s n="adj"/></l><r>vixesimo<b/>quinto<s n="adj"/></r></p></e>
+<e><p><l>vigesimosexto<s n="adj"/></l><r>vixesimo<b/>sexto<s n="adj"/></r></p></e>
+<e><p><l>vigesimoséptimo<s n="adj"/></l><r>vixesimo<b/>sétimo<s n="adj"/></r></p></e>
+<e><p><l>vigesimooctavo<s n="adj"/></l><r>vixesimo<b/>oitavo<s n="adj"/></r></p></e>
+<e><p><l>vigesimonoveno<s n="adj"/></l><r>vixesimo<b/>noveno<s n="adj"/></r></p></e>
+<e><p><l>autotaxi<s n="n"/></l><r>auto-taxi<s n="n"/></r></p></e>
+<e><p><l>obrante<s n="n"/></l><r>obrante<s n="n"/></r></p></e>
+<e><p><l>actuante<s n="n"/></l><r>actuante<s n="n"/></r></p></e>
+<e><p><l>habilitante<s n="n"/></l><r>habilitante<s n="n"/></r></p></e>
+<e><p><l>CPV<s n="n"/></l><r>CPV<s n="n"/></r></p></e>
+<e><p><l>motivadamente<s n="adv"/></l><r>motivadamente<s n="adv"/></r></p></e>
+<e><p><l>justificadamente<s n="adv"/></l><r>xustificadamente<s n="adv"/></r></p></e>
+<e><p><l>preceptuado<s n="adj"/></l><r>preceptuado<s n="adj"/></r></p></e>
+<e><p><l>apícola<s n="adj"/></l><r>apícola<s n="adj"/></r></p></e>
+<e><p><l>melífera<s n="adj"/></l><r>melífera<s n="adj"/></r></p></e>
+<e><p><l>renting<s n="n"/></l><r>renting<s n="n"/></r></p></e>
+<e><p><l>cadavérico<s n="adj"/></l><r>cadavérico<s n="adj"/></r></p></e>
+<e><p><l>baremación<s n="n"/></l><r>baremación<s n="n"/></r></p></e>
+<e><p><l>funcionarización<s n="n"/></l><r>funcionarización<s n="n"/></r></p></e>
+<e><p><l>maderable<s n="adj"/></l><r>maderable<s n="adj"/></r></p></e>
+<e><p><l>adquirente<s n="adj"/></l><r>adquirente<s n="adj"/></r></p></e>
+<e><p><l>telefax<s n="n"/></l><r>telefax<s n="n"/></r></p></e>
+<e><p><l>concedente<s n="adj"/></l><r>concedente<s n="adj"/></r></p></e>
+<e><p><l>legalizable<s n="adj"/></l><r>legalizable<s n="adj"/></r></p></e>
+<e><p><l>equidistribución<s n="n"/></l><r>equidistribución<s n="n"/></r></p></e>
+<e><p><l>habilitante<s n="adj"/></l><r>habilitante<s n="adj"/></r></p></e>
+<e><p><l>emprendimiento<s n="n"/></l><r>emprendimiento<s n="n"/></r></p></e>
+<e><p><l>reinhumación<s n="n"/></l><r>reinhumación<s n="n"/></r></p></e>
+<e><p><l>transmitente<s n="adj"/></l><r>transmitente<s n="adj"/></r></p></e>
+<e><p><l>individualizadamente<s n="adv"/></l><r>individualizadamente<s n="adv"/></r></p></e>
+<e><p><l>inaplicación<s n="n"/></l><r>inaplicación<s n="n"/></r></p></e>
+<e><p><l>dotacional<s n="adj"/></l><r>dotacional<s n="adj"/></r></p></e>
+<e><p><l>legitimador<s n="adj"/></l><r>legitimador<s n="adj"/></r></p></e>
+<e><p><l>disconforme<s n="adj"/></l><r>disconforme<s n="adj"/></r></p></e>
+<e><p><l>obstaculización<s n="n"/></l><r>obstaculización<s n="n"/></r></p></e>
+<e><p><l>estimatorio<s n="adj"/></l><r>estimatorio<s n="adj"/></r></p></e>
+<e><p><l>reducible<s n="adj"/></l><r>reducible<s n="adj"/></r></p></e>
+<e><p><l>APU<s n="np"/></l><r>APU<s n="np"/></r></p></e>
+<e><p><l>otorgante<s n="n"/></l><r>outorgante<s n="n"/></r></p></e>
+<e><p><l>refundición<s n="n"/></l><r>refundición<s n="n"/></r></p></e>
+<e><p><l>llevanza<s n="n"/><s n="f"/></l><r>mantemento<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>explanación<s n="n"/></l><r>explanación<s n="n"/></r></p></e>
+<e><p><l>factoring<s n="n"/></l><r>factoring<s n="n"/></r></p></e>
+<e><p><l>subsumible<s n="adj"/></l><r>subsumible<s n="adj"/></r></p></e>
+<e><p><l>arbustivo<s n="adj"/></l><r>arbustivo<s n="adj"/></r></p></e>
+<e><p><l>TRLRHL<s n="np"/></l><r>TRLRHL<s n="np"/></r></p></e>
+<e><p><l>sectorizado<s n="adj"/></l><r>sectorizado<s n="adj"/></r></p></e>
+<e><p><l>edificatorio<s n="adj"/></l><r>edificatorio<s n="adj"/></r></p></e>
+<e><p><l>confirming<s n="n"/></l><r>confirming<s n="n"/></r></p></e>
+<e><p><l>EHA<s n="np"/></l><r>EHA<s n="np"/></r></p></e>
+<e><p><l>INT<s n="np"/></l><r>INT<s n="np"/></r></p></e>
+<e><p><l>delegante<s n="n"/></l><r>delegante<s n="n"/></r></p></e>
+<e><p><l>TRLCSP<s n="np"/></l><r>TRLCSP<s n="np"/></r></p></e>
+<e><p><l>descatalogación<s n="n"/></l><r>descatalogación<s n="n"/></r></p></e>
+<e><p><l>autorizable<s n="adj"/></l><r>autorizable<s n="adj"/></r></p></e>
+<e><p><l>CPA<s n="np"/></l><r>CPA<s n="np"/></r></p></e>
+<e><p><l>censal<s n="adj"/></l><r>censal<s n="adj"/></r></p></e>
+<e><p><l>andamiaje<s n="n"/></l><r>estadaxe<s n="n"/></r></p></e>
+<e><p><l>sectorización<s n="n"/></l><r>sectorización<s n="n"/></r></p></e>
+<e><p><l>RCD<s n="np"/></l><r>RCD<s n="np"/></r></p></e>
+<e><p><l>contrayente<s n="adj"/></l><r>contraente<s n="adj"/></r></p></e>
+<e><p><l>taxímetro<s n="n"/></l><r>taxímetro<s n="n"/></r></p></e>
+<e><p><l>recurrible<s n="adj"/></l><r>recorrible<s n="adj"/></r></p></e>
+<e><p><l>razonadamente<s n="adv"/></l><r>razoadamente<s n="adv"/></r></p></e>
+<e><p><l>rastrojera<s n="n"/></l><r>restroballada<s n="n"/></r></p></e>
+<e><p><l>PDSU<s n="np"/></l><r>PDSU<s n="np"/></r></p></e>
+<e><p><l>dBA<s n="np"/></l><r>dBA<s n="np"/></r></p></e>
+<e><p><l>sobre<s n="n"/></l><r>sobre<s n="n"/></r></p></e>
+<e><p><l>adecuado<s n="adj"/></l><r>axeitado<s n="adj"/></r></p></e>
+<e r="RL"><p><l>inadecuado<s n="adj"/></l><r>inadecuado<s n="adj"/></r></p></e>
+<e><p><l>inadecuado<s n="adj"/></l><r>desaxeitado<s n="adj"/></r></p></e>
+<!--<e r="RL"><p><l>idóneo<s n="adj"/></l><r>axeitado<s n="adj"/></r></p></e>-->
+<e><p><l>electrónicamente<s n="adv"/></l><r>electronicamente<s n="adv"/></r></p></e>
+<e><p><l>incorporal<s n="adj"/></l><r>incorporal<s n="adj"/></r></p></e>
+<e><p><l>otorgamiento<s n="n"/></l><r>outorgamento<s n="n"/></r></p></e>
+<e><p><l>justificativo<s n="adj"/></l><r>xustificativo<s n="adj"/></r></p></e>
+<e><p><l>parcelación<s n="n"/><s n="f"/></l><r>parcelamento<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>especificación<s n="n"/></l><r>especificación<s n="n"/></r></p></e>
+<e><p><l>vencimiento<s n="n"/></l><r>vencemento<s n="n"/></r></p></e>
+<e><p><l>sujeción<s n="n"/></l><r>suxeición<s n="n"/></r></p></e>
+<e><p><l>codificación<s n="n"/></l><r>codificación<s n="n"/></r></p></e>
+<e r="LR"><p><l>subsanación<s n="n"/></l><r>emenda<s n="n"/></r></p></e>
+<e><p><l>transcribir<s n="vblex"/></l><r>transcribir<s n="vblex"/></r></p></e>
+<e><p><l>reglamentariamente<s n="adv"/></l><r>regulamentariamente<s n="adv"/></r></p></e>
+<e r="LR"><p><l>formulación<s n="n"/></l><r>formulación<s n="n"/></r></p></e>
+<e><p><l>enajenar<s n="vblex"/></l><r>allear<s n="vblex"/></r></p></e>
+<e><p><l>recusación<s n="n"/></l><r>recusación<s n="n"/></r></p></e>
+<e><p><l>pertinente<s n="adj"/></l><r>pertinente<s n="adj"/></r></p></e>
+<e><p><l>proponente<s n="adj"/></l><r>propoñente<s n="adj"/></r></p></e>
+<e><p><l>decreciente<s n="adj"/></l><r>decrecente<s n="adj"/></r></p></e>
+<e><p><l>ejecutividad<s n="n"/></l><r>executividade<s n="n"/></r></p></e>
+<e><p><l>anulabilidad<s n="n"/></l><r>anulabilidade<s n="n"/></r></p></e>
+<e><p><l>surtir<g><b/>efecto</g><s n="vblex"/></l><r>producir<g><b/>efecto</g><s n="vblex"/></r></p></e>
+<e><p><l>presupuesto<g><b/>base</g><s n="n"/></l><r>orzamento<g><b/>base</g><s n="n"/></r></p></e>
+<e r="LR"><p><l>haber<g><b/>de</g><s n="vbhaver"/></l><r>deber<s n="vblex"/></r></p></e>
+<e><p><l>suelo<s n="n"/></l><r>solo<s n="n"/></r></p></e>
+<e r="RL"><p><l>suelo<s n="n"/></l><r>chan<s n="n"/></r></p></e>
+
+
+
   </section>
 </dictionary>

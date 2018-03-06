@@ -193134,6 +193134,115 @@
 
 
 
+<e a="prompsit" lm="nº"><i>nº</i><par n="abandono__n"/></e>
+<e a="prompsit" lm="n.º"><p><l>n.º</l><r>nº</r></p><par n="abandono__n"/></e>
+<e a="prompsit" lm="fdo."><i>fdo.</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="Vº Bº"><p><l>Vº<b/>Bº</l><r>V.º<b/>B.º</r></p><par n="abandono__n"/></e>
+<e a="prompsit" lm="V.º B.º"><i>V.º<b/>B.º</i><par n="abandono__n"/></e>
+<e a="prompsit" lm="Ud."><i>Ud.</i><par n="abandono__n"/></e>
+<e a="prompsit" lm="Vd."><p><l>Vd.</l><r>Ud.</r></p><par n="abandono__n"/></e>
+<e a="prompsit" lm="vigesimoprimero"><i>vigesimoprimer</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="vigesimosegundo"><i>vigesimosegund</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="vigesimotercero"><i>vigesimotercer</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="vigesimocuarto"><i>vigesimocuart</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="vigesimoquinto"><i>vigesimoquint</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="vigesimosexto"><i>vigesimosext</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="vigesimoséptimo"><i>vigesimoséptim</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="vigesimooctavo"><i>vigesimooctav</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="vigesimonoveno"><i>vigesimonoven</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="autotaxi"><i>autotaxi</i><par n="abandono__n"/></e>
+<e a="prompsit" lm="obrante"><i>obrante</i><par n="agente__n"/></e>
+<e a="prompsit" lm="actuante"><i>actuante</i><par n="agente__n"/></e>
+<e a="prompsit" lm="habilitante"><i>habilitante</i><par n="agente__n"/></e>
+<e a="prompsit" lm="CPV"><i>CPV</i><par n="IVE__n"/></e>
+<e a="prompsit" lm="motivadamente"><i>motivadamente</i><par n="abajo__adv"/></e>
+<e a="prompsit" lm="justificadamente"><i>justificadamente</i><par n="abajo__adv"/></e>
+<e a="prompsit" lm="preceptuado"><i>preceptuad</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="apícola"><i>apícola</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="melífera"><i>melífer</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="renting"><i>renting</i><par n="abandono__n"/></e>
+<e a="prompsit" lm="cadavérico"><i>cadavéric</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="baremación"><i>baremaci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="funcionarización"><i>funcionarizaci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="maderable"><i>maderable</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="adquirente"><i>adquirente</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="telefax"><i>telefax</i><par n="abandono__n"/></e>
+<e a="prompsit" lm="concedente"><i>concedente</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="legalizable"><i>legalizable</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="equidistribución"><i>equidistribuci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="habilitante"><i>habilitante</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="emprendimiento"><i>emprendimiento</i><par n="abandono__n"/></e>
+<e a="prompsit" lm="reinhumación"><i>reinhumaci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="transmitente"><i>transmitente</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="individualizadamente"><i>individualizadamente</i><par n="abajo__adv"/></e>
+<e a="prompsit" lm="inaplicación"><i>inaplicaci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="dotacional"><i>dotacional</i><par n="actual__adj"/></e>
+<e a="prompsit" lm="legitimador"><i>legitimador</i><par n="abrumador__adj"/></e>
+<e a="prompsit" lm="disconforme"><i>disconforme</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="obstaculización"><i>obstaculizaci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="estimatorio"><i>estimatori</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="reducible"><i>reducible</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="APU"><i>APU</i><par n="Imaxin__np"/></e>
+<e a="prompsit" lm="otorgante"><i>otorgante</i><par n="agente__n"/></e>
+<e a="prompsit" lm="refundición"><i>refundici</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="llevanza"><i>llevanza</i><par n="abundancia__n"/></e>
+<e a="prompsit" lm="explanación"><i>explanación</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="factoring"><i>factoring</i><par n="abandono__n"/></e>
+<e a="prompsit" lm="subsumible"><i>subsumible</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="arbustivo"><i>arbustiv</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="TRLRHL"><i>TRLRHL</i><par n="Imaxin__np"/></e>
+<e a="prompsit" lm="sectorizado"><i>sectorizad</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="edificatorio"><i>edificatori</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="confirming"><i>confirming</i><par n="abandono__n"/></e>
+<e a="prompsit" lm="EHA"><i>EHA</i><par n="Imaxin__np"/></e>
+<e a="prompsit" lm="INT"><i>INT</i><par n="Imaxin__np"/></e>
+<e a="prompsit" lm="delegante"><i>delegante</i><par n="agente__n"/></e>
+<e a="prompsit" lm="TRLCSP"><i>TRLCSP</i><par n="Imaxin__np"/></e>
+<e a="prompsit" lm="descatalogación"><i>descatalogaci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="autorizable"><i>autorizable</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="CPA"><i>CPA</i><par n="Imaxin__np"/></e>
+<e a="prompsit" lm="censal"><i>censal</i><par n="actual__adj"/></e>
+<e a="prompsit" lm="andamiaje"><i>andamiaje</i><par n="abandono__n"/></e>
+<e a="prompsit" lm="sectorización"><i>sectorizaci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="RCD"><i>RCD</i><par n="Imaxin__np"/></e>
+<e a="prompsit" lm="contrayente"><i>contrayente</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="taxímetro"><i>taxímetro</i><par n="abandono__n"/></e>
+<e a="prompsit" lm="recurrible"><i>recurrible</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="razonadamente"><i>razonadamente</i><par n="abajo__adv"/></e>
+<e a="prompsit" lm="rastrojera"><i>rastrojera</i><par n="abundancia__n"/></e>
+<e a="prompsit" lm="PDSU"><i>PDSU</i><par n="Imaxin__np"/></e>
+<e a="prompsit" lm="dBA"><i>dBA</i><par n="Imaxin__np"/></e>
+<e a="prompsit" lm="sobre"><i>sobre</i><par n="abandono__n"/></e>
+<e a="prompsit" lm="adecuado"><i>adecuad</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="electrónicamente"><i>electrónicamente</i><par n="abajo__adv"/></e>
+<e a="prompsit" lm="incorporal"><i>incorporal</i><par n="actual__adj"/></e>
+<e a="prompsit" lm="otorgamiento"><i>otorgamiento</i><par n="abandono__n"/></e>
+<e a="prompsit" lm="justificativo"><i>justificativ</i><par n="absolut_o__adj"/></e>
+<e a="prompsit" lm="parcelación"><i>parcelaci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="tasación"><i>tasaci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="especificación"><i>especificaci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="vencimiento"><i>vencimiento</i><par n="abandono__n"/></e>
+<e a="prompsit" lm="sujeción"><i>sujeci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="codificación"><i>codificaci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="subsanación"><i>subsanaci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="transcribir"><i>transcri</i><par n="descri/bir__vblex"/></e>
+<e a="prompsit" lm="transcribir"><p><l>transcrí</l><r>transcri</r></p><par n="descrí/bir__vblex"/></e>
+<e a="prompsit" lm="reglamentariamente"><i>reglamentariamente</i><par n="abajo__adv"/></e>
+<e a="prompsit" lm="formulación"><i>formulaci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="enajenar"><i>enajen</i><par n="abandon/ar__vblex"/></e>
+<e a="prompsit" lm="enajenar"><p><l>enajé</l><r>enaje</r></p><par n="abandón/ar__vblex"/></e>
+<e a="prompsit" lm="recusación"><i>recusaci</i><par n="acci_ón__n"/></e>
+<e a="prompsit" lm="pertinente"><i>pertinente</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="proponente"><i>proponente</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="decreciente"><i>decreciente</i><par n="abundante__adj"/></e>
+<e a="prompsit" lm="ejecutividad"><i>ejecutividad</i><par n="abundancia__n"/></e>
+<e a="prompsit" lm="anulabilidad"><i>anulabilidad</i><par n="abundancia__n"/></e>
+<e a="prompsit" lm="surtir efecto"><i>surt</i><par n="abat/ir__vblex"/><p><l><b/>efecto</l><r><g><b/>efecto</g></r></p></e>
+<e a="prompsit" lm="surtir efecto"><p><l>súrt</l><r>surt</r></p><par n="abát/ir__vblex"/><p><l><b/>efecto</l><r><g><b/>efecto</g></r></p></e>
+<e a="prompsit" lm="presupuesto base"><i>presupuesto</i><par n="abandono__n"/><p><l><b/>base</l><r><g><b/>base</g></r></p></e>
+<e a="prompsit" lm="haber de"><i>h</i><par n="h/aber__vbhaver"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
+
+
 
 
 </section>
