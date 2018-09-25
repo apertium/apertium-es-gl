@@ -11560,7 +11560,7 @@
 <e>       <p><l>ás</l>          <r>ás<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
 <pardef n="badanas__adj">
-<e>       <p><l></l>
+<e>       <p><l></l>            <r><s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
 <pardef n="parlanch_ín__adj">
 <e>       <p><l>inas</l>        <r>ín<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
