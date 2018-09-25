@@ -4,7 +4,7 @@
 	Sections: 2
 	Entries: 34020
 	Sdefs: 63
-	Paradigms: 428
+	Paradigms: 433
 	Last processed by: apertium-dixtools sort -alignBidix ../apertium-es-gl/apertium-es-gl.es.dix ../apertium-es-gl/apertium-es-gl.es.dix
 
 -->
@@ -11549,11 +11549,36 @@
   <e>       <p><l>unes</l>      <r>ún<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>ún</l>        <r>ún<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
+<pardef n="cantar_ín__adj">
+<e>       <p><l>inas</l>        <r>ín<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>ina</l>         <r>ín<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>ines</l>        <r>ín<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>ín</l>          <r>ín<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+</pardef>
+<pardef n="antig_ás__adj">
+<e>       <p><l>ases</l>        <r>ás<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e>       <p><l>ás</l>          <r>ás<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+</pardef>
+<pardef n="badanas__adj">
+<e>       <p><l></l>
+</pardef>
+<pardef n="parlanch_ín__adj">
+<e>       <p><l>inas</l>        <r>ín<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>ina</l>         <r>ín<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>ines</l>        <r>ín<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>ín</l>          <r>ín<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+</pardef>
 <pardef n="abajo__adv">
   <e>       <p><l></l>          <r><s n="adv"/></r></p></e>
 </pardef>
 <pardef n="adónde__adv">
   <e>       <p><l></l>          <r><s n="adv"/><s n="itg"/></r></p></e>
+</pardef>
+<pardef n="a_tod_o__adv">
+<e>       <p><l>as</l>          <r>o<s n="adv"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>a</l>           <r>o<s n="adv"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>os</l>          <r>o<s n="adv"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>o</l>           <r>o<s n="adv"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 <pardef n="aun__cnjadv">
   <e>       <p><l></l>          <r><s n="cnjadv"/></r></p></e>
