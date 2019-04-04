@@ -14,6 +14,8 @@ AC_CONFIG_HEADER([config])
 
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
                           
+AP_CHECK_LING([1], [apertium-spa])
+
 
 AC_SUBST(APERTIUM_VER)
 

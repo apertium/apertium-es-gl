@@ -23,10 +23,38 @@
     </pipeline>
   </mode>
   
+<!--
   <mode name="es-gl" install="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="es-gl.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-gl.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-es-gl.es-gl.t1x"/>
+        <file name="es-gl.t1x.bin"/>
+        <file name="es-gl.autobil.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="es-gl.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="es-gl.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+-->
+
+  <mode name="es-gl" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-gl.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="es-gl.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="es-gl.prob"/>
