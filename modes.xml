@@ -50,10 +50,10 @@
 
   <mode name="es-gl" install="yes">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="es-gl.automorf.bin"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -w">
         <file name="es-gl.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
@@ -70,6 +70,19 @@
       </program>
       <program name="lt-proc -p">
         <file name="es-gl.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="es-gl-disam" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="es-gl.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="es-gl.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
