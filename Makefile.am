@@ -1,4 +1,3 @@
-VERSION=1.0.7
 LANG1=es
 LANG2=gl
 LANG1a=spa
