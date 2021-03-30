@@ -1,31 +1,7 @@
-* text=auto !eol
-/AUTHORS -text
-/COPYING -text
-/ChangeLog -text
-/Makefile.am -text
-/NEWS -text
-/README -text
-/apertium-es-gl.es-gl.dix -text
-/apertium-es-gl.es-gl.t1x -text
-/apertium-es-gl.es.dix -text
-/apertium-es-gl.es.tsx -text
-/apertium-es-gl.gl-es.t1x -text
-/apertium-es-gl.gl.dix -text
-/apertium-es-gl.gl.tsx -text
-/apertium-es-gl.post-es.dix -text
-/apertium-es-gl.post-gl.dix -text
-/apertium-es-gl.symbols.xml -text
-/autogen.sh -text
-/configure.ac -text
-/es-gl-supervised.make -text
-/es-gl-unsupervised.make -text
-/es-gl.prob -text svneol=unset#unset
-/gl-es-supervised.make -text
-/gl-es-unsupervised.make -text
-/gl-es.prob -text svneol=unset#unset
-/modes.xml -text
+* text=auto eol=lf
 *.dix linguist-language=XML linguist-detectable=true
 *.lrx linguist-language=XML linguist-detectable=true
 *.lsx linguist-language=XML linguist-detectable=true
 *.tsx linguist-language=XML linguist-detectable=true
 *.t[[:digit:]]x linguist-language=XML linguist-detectable=true
+*.prob binary

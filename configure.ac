@@ -1,38 +1,16 @@
-#                                               -*- Autoconf -*-
-# Process this file with autoconf to produce a configure script.
-
 AC_PREREQ(2.52)
 
-m4_define([required_apertium_version], [3.4.0])
-m4_define([required_lttoolbox_version], [3.3.1])
-
-AC_INIT([Apertium Spanish-Galician], [1.0.8], [xgg@uvigo.es], [apertium-es-gl], [http://wiki.apertium.org/wiki/Apertium-es-gl])
+AC_INIT([Apertium Spanish-Galician], [1.0.9], [apertium-stuff@lists.sourceforge.net], [apertium-es-gl], [https://wiki.apertium.org/wiki/Apertium-es-gl])
 AM_INIT_AUTOMAKE
-
-AC_PROG_LN_S
 AC_PROG_AWK
 
-PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version)
-PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= required_lttoolbox_version)
-
-AC_PATH_PROG([CGCOMP], [cg-comp], [false], [$PATH$PATH_SEPARATOR$with_cg_comp/bin])
-AS_IF([test x$CGCOMP = xfalse], [AC_MSG_ERROR([You don't have cg-comp installed])])
-
-AC_PATH_PROG([CGPROC], [cg-proc], [false], [$PATH$PATH_SEPARATOR$with_cg_proc/bin])
-AS_IF([test x$CGPROC = xfalse], [AC_MSG_ERROR([You don't have cg-proc installed])])
-
-
-dnl AC_PATH_PROG([LRXCOMP], [lrx-comp], [false], [$PATH$PATH_SEPARATOR$with_lrx_comp/bin])
-dnl AS_IF([test x$LRXCOMP = xfalse], [AC_MSG_ERROR([You don't have lrx-comp installed])])
-
-dnl AC_PATH_PROG([LRXPROC], [lrx-proc], [false], [$PATH$PATH_SEPARATOR$with_lrx_proc/bin])
-dnl AS_IF([test x$LRXPROC = xfalse], [AC_MSG_ERROR([You don't have lrx-proc installed])])
-
-
+PKG_CHECK_MODULES(APERTIUM,   apertium >= 3.7.1)
+PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= 3.5.3)
+PKG_CHECK_MODULES(CG3, cg3 >= 1.3.1)
 
 m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertium.m4 in ACLOCAL_PATH? See: http://wiki.apertium.org/wiki/Installation_troubleshooting])])
 
-AP_CHECK_LING([1], [apertium-spa])
+AP_CHECK_LING([1], [apertium-spa], [1.2.1])
 dnl AP_CHECK_LING([2], [apertium-glg])
 
 AP_MKINCLUDE
