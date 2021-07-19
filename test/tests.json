@@ -1,0 +1,10 @@
+{
+    "es-gl": {
+        "input": "es-gl-input.txt",
+        "mode": "es-gl"
+    },
+    "gl-es": {
+        "input": "gl-es-input.txt",
+        "mode": "gl-es"
+    }
+}

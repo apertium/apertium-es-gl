@@ -16,3 +16,10 @@
 /modes
 /stamp-h1
 /ap_include.am
+/*.hfst
+/*.gz
+/*.pc
+/*.zhfst
+/.DS_Store
+/*-*.prob
+/test/*-output.txt

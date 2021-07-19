@@ -159,10 +159,4 @@ clean-dicts:
 ###############################################################################
 
 test: all
-	echo "Mi aerodeslizador está lleno de anguilas" | apertium -d . es-gl | tee .test-mt
-	@echo "O meu aerodeslizador está cheo de anguías" > .test-ref
-	@diff .test-ref .test-mt
-	echo "O meu aerodeslizador esta cheo de anguías" | apertium -d . gl-es | tee .test-mt
-	@echo "Mi aerodeslizador esta lleno de anguilas" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
+	apertium-regtest test

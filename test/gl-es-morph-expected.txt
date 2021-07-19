@@ -1,0 +1,2 @@
+[FOw-gbaQV4PK#0] ^O meu/O meu<det><pos><m><sg>/O meu<prn><tn><pos><m><sg>$ ^aerodeslizador/aerodeslizador<n><m><sg>$ ^esta/este<prn><tn><f><sg>/este<det><dem><f><sg>$ ^cheo/cheo<adj><m><sg>$ ^de/de<pr>$ ^anguías/anguía<n><f><pl>$
+[/FOw-gbaQV4PK]
